@@ -1,0 +1,204 @@
+/*============================================================
+
+Author: Simon Young
+http://simonyoung.net
+http://twitter.com/simon180
+
+LAYOUT.CSS 
+Main CSS layout styles
+
+(c) Simon Young, 2010. All rights reserved.
+
+============================================================*/
+
+/* @group Page Structure
+--------------------------------------------- */
+body { 
+    background: #fff url(../backgrounds/body.png) 50% top no-repeat;
+    color: #000;
+    font-family: "Lucida Grande", Helvetica, Arial, sans-serif; 
+    margin: 0; 
+    padding: 0;
+}
+
+.wrapper {
+    display: inline;
+    float: left;
+    width: 100%;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 30px;
+    width: 900px;
+}
+
+.header {
+    height: 100px;
+    margin: 0;
+    padding: 20px 0;
+}
+
+.header h1 {
+    background: url(../logo.png) top left no-repeat;
+    display: inline;
+    float: left;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+    text-indent: -9999px;
+    width: 100px;
+}
+
+.header ul {
+    display: inline;
+    font-size: 1.6em;
+    line-height: 1.25em;
+    list-style: none;
+    margin: 55px 0 0 0;
+    padding: 0;
+    float: right;
+}
+
+.header li {
+    display: inline;
+    float: left;
+    list-style: none;
+    margin: 0 5px;
+    padding: 0;
+}
+
+.header li a {
+    background-color: #fff;
+    color: #000;
+    display: inline;
+    float: left;
+    font-weight: bold;
+    margin: 0;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+.header li a:hover {
+    background-color: #3c9b2d;
+    color: #fff;
+}
+
+.footer li.shiny-logo {
+    background: url(../logo_mini.png) 50% top no-repeat;
+    display: inline;
+    float: left;
+    height: 40px;
+    margin: 30px 0 10px 0;
+    padding: 0;
+    text-align: center;
+    text-indent: -9999px;
+    width: 900px;
+}
+
+.content-upper {
+    height: 320px;
+    padding: 20px 0 0 0;
+    position: relative;
+}
+
+.content-upper .section {
+    display: inline;
+    float: left;
+    margin: 0 0 0 15px;
+    padding: 0;
+    width: 350px;
+}
+
+.content-upper img.display-img {
+    position: absolute;
+    right: -15px;
+    top: 0;
+}
+
+.pattern {
+    background: url(../backgrounds/pattern.png) top left repeat;
+    border-bottom: 1px solid #d8ebd5;
+    border-top: 1px solid #d8ebd5;
+}
+
+.content-lower {
+    clear: both;
+    padding: 20px 0;
+}
+
+.content-lower .section{
+    display: inline;
+    float: left;
+    margin: 0 20px 0 15px;
+    padding: 10px 0;
+    width: 265px;
+}
+
+.content-lower .section-lower{
+    padding-top: 150px;
+}
+
+.footer {
+    clear: both;
+}
+
+/* @end */
+
+
+/* @group Typography
+--------------------------------------------- */
+.container a {
+    color: #267d18;
+}
+
+.section p, .section ul, .section ol {
+    font-size: 1.4em;
+    line-height: 1.4286em;
+    margin-bottom: 20px;
+}
+
+.section h2 {
+    font-size: 3.0em;
+    font-weight: bold;
+    line-height: 1.333em;
+    margin-bottom: 20px;
+}
+
+.section h3 {
+    color: #267d18;
+    font-size: 1.8em;
+    font-weight: bold;
+    line-height: 1.111em;
+    margin-bottom: 20px;
+}
+
+.section p.excerpt {
+    color: #333;
+    font-size: 1.6em;
+    line-height: 1.25em;
+}
+
+.footer ul {
+    font-size: 1.1em;
+    line-height: 1.8182em;
+    list-style: none;
+    margin: 0 0 20px 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* @end */
+
+
+/* @group Self Clear Floats
+--------------------------------------------- */
+.group:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0; 
+    visibility: hidden;
+}
+
+/* @end */
