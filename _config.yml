@@ -2,3 +2,4 @@ auto: false
 server: false
 destination: ./_site
 markdown: rdiscount
+exclude: templates

@@ -1,0 +1,111 @@
+---
+layout: default
+title: Shiny Development Training
+description: Shiny Development training
+---
+
+<div class="wrapper"
+
+<div class="container content-upper">
+    
+    <div class="section ">
+
+        <h2>iPhone Developer Training.</h2>
+        <p class="excerpt">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Integer eu nibh diam, a porta justo. Lorem ipsum dolor sit amet
+            consectetur adipiscing elit. Integer eu nibh diam, a porta justo. 
+            Lorem ipsum dolor sit amet.
+        </p>
+        
+        <p class="excerpt">
+            Integer eu nibh diam, a porta justo. Lorem ipsum dolor sit amet.
+        </p>
+        
+        <p><a href="#">Talk to us about Training &#8594;</a></p>
+
+    </div>
+
+    <img src="assets/images/macbook.png" width="516" height="360" class="display-img" />
+
+</div>
+
+</div>
+
+
+<div class="wrapper pattern">
+
+<div class="container content-lower">
+
+    <div class="section">
+
+        <h3>iPhone Training Courses</h3>
+        
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Integer eu nibh diam, a porta justo. Lorem ipsum dolor sit amet
+            consectetur adipiscing elit. Integer eu nibh diam, a porta justo. 
+            Lorem ipsum dolor sit amet.
+        </p>
+        
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Integer eu nibh diam, a porta justo. Lorem ipsum dolor sit amet
+            consectetur adipiscing elit. Integer eu nibh diam, a porta justo. 
+            Lorem ipsum dolor sit amet.
+        </p>
+        
+        <p><a href="#">Book a Course &#8594;</a></p>
+
+    </div>
+    
+    
+    <div class="section">
+
+        <h3>In House iPhone Training Courses</h3>
+        
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Integer eu nibh diam, a porta justo. Lorem ipsum dolor sit amet
+            consectetur adipiscing elit. Integer eu nibh diam, a porta justo. 
+            Lorem ipsum dolor sit amet.
+        </p>
+        
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Integer eu nibh diam, a porta justo. Lorem ipsum dolor sit amet
+            consectetur adipiscing elit. Integer eu nibh diam, a porta justo. 
+            Lorem ipsum dolor sit amet.
+        </p>
+        
+        <p><a href="#">Make an Enquiry &#8594;</a></p>
+
+    </div>
+    
+    
+    <div class="section">
+
+        <h3>Upcoming Training Courses</h3>
+        
+        <ul>
+            <li><strong>April 26-29:</strong> Newcastle, UK</li>
+            <li><strong>May 10-12: </strong> London, UK</li>
+            <li><strong>May 24-26: </strong> Chester, UK</li>
+            <li><strong>June 8-11: </strong> Cupertino, CA</li>
+            <li><strong>June 15-17: </strong> New York, NY</li>
+            <li><strong>June 22-24: </strong> Manchester, UK</li>
+        </ul>
+        
+        <p>
+            To enquire about future dates for iPhone Developer Training Courses or
+            to talk to us about booking a private iPhone Training Course for your
+            development team, please get in touch.
+        </p>
+        
+        <p><a href="#">Contact Us &#8594;</a></p>
+
+    </div>
+
+</div>
+
+</div>
