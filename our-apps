@@ -3,3 +3,75 @@ layout: default
 title: Shiny Development Our Apps
 description: Shiny Development Our Apps
 ---
+<div class="wrapper">
+    
+    <div class="container content-upper">
+        
+        <div class="section ">
+	
+	        <h2>Our Applications.</h2>
+	        
+	        <p class="excerpt">
+	             Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tristique orci vitae sem interdum condimentum.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tristique orci vitae sem interdum condimentum.
+	        </p>
+	        
+	        <p class="excerpt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tristique orci vitae sem interdum condimentum.</p>
+
+        </div>
+
+        <img src="assets/images/ipad-iphone.png" width="492" height="480" class="display-img" />
+
+    </div>
+
+</div>
+    
+
+<div class="wrapper pattern">
+    
+    <div class="container content-lower">
+
+        <div class="section">
+
+            <h3>Section Title</h3>
+            
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tristique orci vitae sem interdum condimentum. Nunc vel ullamcorper purus. Aenean malesuada mattis erat, ac tincidunt massa fringilla quis. Nam sem purus, mollis vitae fringilla non, porta at libero. Fusce sollicitudin tristique leo, nec fringilla nisi aliquet et.
+            </p>
+            
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tristique orci vitae sem interdum condimentum. Nunc vel ullamcorper purus. Aenean malesuada mattis erat, ac tincidunt massa fringilla quis. Nam sem purus, mollis vitae fringilla non, porta at libero.
+            </p>
+            
+        </div>
+        
+        <div class="section section-lower">
+
+            <h3>Section Title</h3>
+            
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tristique orci vitae sem interdum condimentum. Nunc vel ullamcorper purus. 
+            </p>
+            
+            <p>
+                Aenean malesuada mattis erat, ac tincidunt massa fringilla quis. Nam sem purus, mollis vitae fringilla non, porta at libero. Fusce sollicitudin tristique leo, nec fringilla nisi aliquet et.
+            </p>
+            
+        </div>
+        
+        <div class="section section-lower">
+
+            <h3>Section Title</h3>
+            
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tristique orci vitae sem interdum condimentum. Nunc vel ullamcorper purus. 
+            </p>
+            
+            <p>
+                Aenean malesuada mattis erat, ac tincidunt massa fringilla quis. Nam sem purus, mollis vitae fringilla non, porta at libero. Fusce sollicitudin tristique leo, nec fringilla nisi aliquet et.
+            </p>
+            
+        </div>
+
+    </div>
+    
+</div>
