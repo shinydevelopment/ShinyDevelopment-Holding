@@ -127,6 +127,26 @@ body {
     padding: 20px 0;
 }
 
+.section blockquote {
+    margin-left: 0;
+    padding-left: 15px;
+}
+
+.content-lower .section blockquote, .content-lower-alt .section blockquote {
+    border-left: 2px solid #d8ebd5;
+    margin-left: 5px;
+    padding-left: 15px;
+}
+
+.content-lower .section blockquote p, .content-lower-alt .section blockquote p {
+    color: #333;
+}
+
+.content-lower .section blockquote p.author, .content-lower-alt .section blockquote p.author {
+    font-style: normal;
+    font-weight: bold;
+}
+
 .content-lower-alt .section{
     display: inline;
     float: left;
