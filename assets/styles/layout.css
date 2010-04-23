@@ -143,6 +143,23 @@ body {
     width: 265px;
 }
 
+.content-lower .section-double{
+    display: inline;
+    float: left;
+    margin: 0 20px 0 15px;
+    padding: 10px 0;
+    width: 565px;
+}
+
+.content-lower .section-wide{
+    clear: both;
+    display: inline;
+    float: left;
+    margin: 0 20px 0 15px;
+    padding: 10px 0;
+    width: 865px;
+}
+
 .content-lower .section-lower{
     padding-top: 150px;
 }
@@ -199,9 +216,12 @@ body {
 /* @end */
 
 .section ul.app-list {
+    display: inline;
+    float: left;
     list-style: none;
-    margin: 0;
+    margin: 0 0 20px 0;
     padding: 0;
+    width: 265px;
 }
 
 .section ul.app-list li {

@@ -29,42 +29,45 @@ description: Shiny Development Public Training
 
 <div class="wrapper pattern">
 
-<div class="container content-lower-alt">
+<div class="container content-lower">
 
     <div class="section">
 
-        <h3>Our Expertise</h3>
+        <h3>Course Overview</h3>
         
-        <p>Here are some of the ways we have assisted clients:</p>
-
         <ul>
-            <li>Providing guidance on new iPhone ideas – e.g. what&rsquo;s technically feasible, chosing the best approach, competitor analysis etc. </li>
-            <li>Working with you to develop a full specification ready for implementation</li>
-            <li>Helping structure your project and ensuring it starts on the right foot</li>
-            <li>Acting as a knowledgeable resource to resolve complex technical issues</li>
-            <li>Providing advice and guidance on a range of development issues throughout the project</li>
-            <li>Providing quality assurance on the work produced by outsourced resources</li>
-            <li>Giving advice and guidance on submission to the Apple Appstore  and subsequent marketing techniques for promoting your product.</li>
+            <li><strong>Day 1:</strong> Introduction to iPhone Development and the Objective C Language.</li>
+            <li><strong>Day 2:</strong> Building a basic iPhone application, Interface Builder, Views and View Controllers &amp; Table Views.</li>
+            <li><strong>Day 3:</strong> Application Navigation, Animation and Multi Touch, Deployment and Provisioning and The App Store.</li>
+            <li><strong>Day 4:</strong> Building a complete iPhone application from start to finish.</li>
         </ul>
+        
+        <p>After completing the training programme, trainees will not only be able to build a basic iPhone application but will have been provided with a solid knowledge of the iPhone SDK as a base for further learning.</p>
         
         
 
     </div>
     
     
-    <div class="section">
+    <div class="section section-double">
 
-        <h3>Testimonials</h3>
+        <h3>Detailed Breakdown of Topics</h3>
         
-        <blockquote><p>&ldquo;Shiny Development worked with us when we needed to create a Mac version of one of our applications. I am very pleased to say that Shiny Development did an excellent job advising us on how best to implement our features so that the application would behave as a Mac user would expect. The project ran smoothly and by the numbers. We got exactly what we needed and received a very thorough handover of the implementation. Needless to say, I am a very happy customer, and I would not hesitate to work with Dave and Andrew again.&rdquo;</p>
+        <p>Day one is mainly focused on Objective C and covers everything needed the language to start building iPhone applications. The day covers basic Objective C syntax and constructs, use of the Xcode IDE as a development tool, the Foundation framework, building Objective C classes, properties and methods, debugging using Xcode and GDB, and a thorough explanation of memory management on the iPhone.</p>
 
-        <p class="author">Tim Hastings, Technical Architect. CTI Group</p></blockquote>
+        <p>Day two starts with building a simple iPhone application then covers the details of views and the iPhone view hierarchy, delegates, Interface Builder, view controllers and architecture techniques to ensure a scalable app, table views, navigation and navigation controllers.</p>
 
-        <blockquote><p>&ldquo;Shiny took our web-based service and completely adapted it for the Mac desktop. The user interface is entirely different from our web application, but it feels so smooth and fluid. They went out of their way to polish the interface - working over and above what was expected to get it working just right. They really know the Mac platform inside out. Not only was the project delivered on time and on budget, but they over-delivered on pretty much every other factor. Simply put, Shiny have been a joy to work with and I wouldn't hesitate to recommend them.&rdquo;</p>
+        <p>Day three covers custom table cells, resources and image handling, animation, touch, some more advanced Objective C, an in depth look at the development and deployment process, iTunes connect, the App Store and marketing.</p>
 
-        <p class="author">Paul Farnell, CEO. <a href="http://litmusapp.com">Litmus</a></p></blockquote>
+        <p>The final day of the course gives students a specification for a simple, but full iPhone applicaton and the task for the day is to build it! All of the concepts needed for this will have been taught by this time but the specifics of how to build the app are available if needed. This is an invaluable opportunity to build a real world application with an experienced developer as mentor.</p>
+
+    </div>
+
+    <div class="section section-wide">
         
-        <p><a href="/contact-us">Get in touch &#8594;</a></p>
+        <h3>About the Trainer</h3>
+        
+        <p>The course has been developed and is taught by <strong>Dave Verwer</strong>, developer of Balloons! (<a href="http://balloonsapp.com">http://balloonsapp.com</a>) and several other successful iPhone applications. Dave describes himself as primarily an iPhone and iPad developer rather than a full time trainer and so has experience in all aspects of designing, developing, shipping and marketing successful iPhone applications. Dave has been developing with the iPhone SDK since it was first released and previously to that developed several applications for Mac OS X.</p>
 
     </div>
 
