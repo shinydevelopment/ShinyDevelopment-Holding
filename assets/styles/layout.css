@@ -239,6 +239,10 @@ body {
     padding: 5px 0 0 85px;
 }
 
+.section .overview li {
+    margin-bottom: 10px;
+}
+
 
 /* @group Self Clear Floats
 --------------------------------------------- */
