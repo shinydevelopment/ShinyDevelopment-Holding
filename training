@@ -12,17 +12,14 @@ description: Shiny Development training
 
         <h2>iPhone Developer Training.</h2>
         <p class="excerpt">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Integer eu nibh diam, a porta justo. Lorem ipsum dolor sit amet
-            consectetur adipiscing elit. Integer eu nibh diam, a porta justo. 
-            Lorem ipsum dolor sit amet.
+            Getting your product onto the App Store as quickly as possible is essential in the fast moving world of the iPhone and iPad.
         </p>
         
         <p class="excerpt">
-            Integer eu nibh diam, a porta justo. Lorem ipsum dolor sit amet.
+            Training from Shiny Development gives your development effort the kick start it needs and provides you with the knowledge to set up, develop and release your application.
         </p>
         
-        <p><a href="#">Talk to us about Training &#8594;</a></p>
+        <p><a href="/contact-us">Talk to us about Training &#8594;</a></p>
 
     </div>
 
@@ -39,23 +36,19 @@ description: Shiny Development training
 
     <div class="section">
 
-        <h3>iPhone Training Courses</h3>
+        <h3>Public Training</h3>
         
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Integer eu nibh diam, a porta justo. Lorem ipsum dolor sit amet
-            consectetur adipiscing elit. Integer eu nibh diam, a porta justo. 
-            Lorem ipsum dolor sit amet.
-        </p>
+        <p>Shiny Development holds regular intensive 4 day iPhone development courses throughout the year at a variety of locations across the UK.</p>
+
+        <p>The course provides everything needed for developers to get up and running with the iPhone SDK and Objective C. The focus is on providing a comprehensive grounding in iPhone development techniques and trainees will come away with not only the ability to build iPhone applications but also an understanding of the concepts and patterns used in iPhone development.</p>
         
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Integer eu nibh diam, a porta justo. Lorem ipsum dolor sit amet
-            consectetur adipiscing elit. Integer eu nibh diam, a porta justo. 
-            Lorem ipsum dolor sit amet.
-        </p>
+        <h3>Feedback from Recent Courses</h3>
+
+        <blockquote><p>&ldquo;I feel that I benefited greatly from attending as Dave&rsquo;s real world experience was invaluable.&rdquo;</p></blockquote>
+
+        <blockquote><p>&ldquo;The presenter was knowledgeable and a great teacher - the mix of theory and practice was perfect.&rdquo;</p></blockquote>
         
-        <p><a href="#">Book a Course &#8594;</a></p>
+        <p><a href="/public-training">Find out more &#8594;</a></p>
 
     </div>
     
@@ -64,21 +57,15 @@ description: Shiny Development training
 
         <h3>In House iPhone Training Courses</h3>
         
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Integer eu nibh diam, a porta justo. Lorem ipsum dolor sit amet
-            consectetur adipiscing elit. Integer eu nibh diam, a porta justo. 
-            Lorem ipsum dolor sit amet.
-        </p>
+        <p>We provide tailored iPhone development courses for in house software teams. The bespoke nature of these events mean that as well as providing a solid grounding in iPhone development we can also focus on the particular issues that matter to your team.</p>
+
+        <p>The course provides a cost effective way to bring your whole team up to speed, allowing them all to contribute to your development project from day one.</p>
+
+        <blockquote><p>&ldquo;Shiny Development offered us a customized course that took the core of the standard 'group' course and tailored it to our needs. This really helped, by ensuring there was a good understanding of the fundamentals of iPhone development then advancing with video specific classes and objects, our development was massively
+        accelerated - so much so, I had our first app programmed by the end of
+        the first week after the course!&rdquo;</p></blockquote>
         
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Integer eu nibh diam, a porta justo. Lorem ipsum dolor sit amet
-            consectetur adipiscing elit. Integer eu nibh diam, a porta justo. 
-            Lorem ipsum dolor sit amet.
-        </p>
-        
-        <p><a href="#">Make an Enquiry &#8594;</a></p>
+        <p><a href="/in-house-training">Find out more &#8594;</a></p>
 
     </div>
     
@@ -89,11 +76,6 @@ description: Shiny Development training
         
         <ul>
             <li><strong>April 26-29:</strong> Newcastle, UK</li>
-            <li><strong>May 10-12: </strong> London, UK</li>
-            <li><strong>May 24-26: </strong> Chester, UK</li>
-            <li><strong>June 8-11: </strong> Cupertino, CA</li>
-            <li><strong>June 15-17: </strong> New York, NY</li>
-            <li><strong>June 22-24: </strong> Manchester, UK</li>
         </ul>
         
         <p>
@@ -102,7 +84,7 @@ description: Shiny Development training
             development team, please get in touch.
         </p>
         
-        <p><a href="#">Contact Us &#8594;</a></p>
+        <p><a href="/contact-us">Contact Us &#8594;</a></p>
 
     </div>
 
