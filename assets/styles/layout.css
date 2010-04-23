@@ -218,6 +218,14 @@ body {
     margin-bottom: 20px;
 }
 
+.section h4 {
+    color: #267d18;
+    font-size: 1.4em;
+    font-weight: bold;
+    line-height: 1.4286em;
+    margin-bottom: 20px;
+}
+
 .section p.excerpt {
     color: #333;
     font-size: 1.6em;
