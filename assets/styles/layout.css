@@ -122,9 +122,17 @@ body {
     border-top: 1px solid #d8ebd5;
 }
 
-.content-lower {
+.content-lower, .content-lower-alt {
     clear: both;
     padding: 20px 0;
+}
+
+.content-lower-alt .section{
+    display: inline;
+    float: left;
+    margin: 0 20px 0 15px;
+    padding: 10px 0;
+    width: 415px;
 }
 
 .content-lower .section{
@@ -189,6 +197,27 @@ body {
 }
 
 /* @end */
+
+.section ul.app-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.section ul.app-list li {
+    display: inline;
+    float: left;
+    width: 260px;
+}
+
+.section li.balloons {
+    background: url(../images/whats-hot.png) top left no-repeat;
+    display: inline;
+    float: left;
+    height: 60px;
+    margin: 0 0 10px 0;
+    padding: 5px 0 0 90px;
+}
 
 
 /* @group Self Clear Floats
