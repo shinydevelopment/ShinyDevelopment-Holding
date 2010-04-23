@@ -1,0 +1,71 @@
+---
+layout: default
+title: Shiny Development In House Training
+description: Shiny Development In House Training
+---
+
+<div class="wrapper"
+
+<div class="container content-upper">
+    
+    <div class="section ">
+
+        <h2>In House Training.</h2>
+        <p class="excerpt">
+           Shiny Development can tailor the iPhone Development course to your organisation&rsquo;s specific needs.
+        </p>
+        <p class="excerpt">
+            Typically the course would start with the fundamentals of iPhone development and the Object C Language. It would then focus on client specific topics and issues.
+        </p>
+
+    </div>
+
+    <img src="assets/images/macbook.png" width="516" height="360" class="display-img" />
+
+</div>
+
+</div>
+
+
+<div class="wrapper pattern">
+
+<div class="container content-lower-alt">
+
+    <div class="section">
+
+        <h3>Example Course Overview</h3>
+        
+        <ul class="overview">
+            <li><strong>Day 1:</strong> Introduction to iPhone Development and the Objective C Language.</li>
+            <li><strong>Day 2:</strong> Building a basic iPhone application, Interface Builder, Views and View Controllers &amp; Table Views.</li>
+            <li><strong>Day 3:</strong> Client Specific topics (e.g. video streaming, animation, client / server issues), Deployment and Provisioning and The App Store.</li>
+            <li><strong>Day 4:</strong> Further Client Specific topics (or Build a complete standard iPhone application - Tweet Trends - from start to finish)</li>
+        </ul>
+        
+        
+
+    </div>
+    
+    
+    <div class="section">
+
+        <h3>Testimonials</h3>
+        
+
+    </div>
+
+    <div class="section section-wide">
+        
+        <h3>About the Trainer</h3>
+        
+        <p>The course has been developed and is taught by <strong>Dave Verwer</strong>, developer of Balloons! (<a href="http://balloonsapp.com">http://balloonsapp.com</a>) and several other successful iPhone applications. Dave describes himself as primarily an iPhone and iPad developer rather than a full time trainer and so has experience in all aspects of designing, developing, shipping and marketing successful iPhone applications. Dave has been developing with the iPhone SDK since it was first released and previously to that developed several applications for Mac OS X.</p>
+        
+        <h3>Prerequisites</h3>
+
+        <p>Trainees should be proficient developers with a good knowledge of a modern, object oriented language such as Java, C#, Python, Ruby or C++.</p>
+
+    </div>
+
+</div>
+
+</div>

@@ -151,7 +151,7 @@ body {
     width: 565px;
 }
 
-.content-lower .section-wide{
+.content-lower .section-wide, .content-lower-alt .section-wide{
     clear: both;
     display: inline;
     float: left;
