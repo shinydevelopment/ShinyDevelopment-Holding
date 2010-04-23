@@ -15,3 +15,5 @@ IE6-specific JavaScript functionality (mainly belatedPNG usage)
 //* DD_belatedPNG.fixPng( someNode ); // argument is an HTMLDomElement
 
 ============================================================*/
+
+DD_belatedPNG.fix( '.header h1, .display-img, li.shiny-logo' );
