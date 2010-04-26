@@ -270,12 +270,6 @@ body {
 .section .overview li {
     margin-bottom: 10px;
 }
-
-
-.section p.fancy-link {
-    margin-bottom: 10px;
-}
-
 .section p.fancy-link a {
     background: #666 url(../images/button.png) 50% right repeat-x;
     color: #fff !important;
@@ -288,7 +282,7 @@ body {
 }
 
 .section p.fancy-link a:hover { 
-    background-color: #72a348 !important; 
+    background-color: #429334 !important; 
     color: #fff !important; 
 }
 
