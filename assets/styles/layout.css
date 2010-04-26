@@ -116,6 +116,15 @@ body {
     top: 0;
 }
 
+.content-upper div#googlemap {
+    border: 5px solid #f4f4f4;
+    position: absolute;
+    right: 0;
+    height: 280px;
+    top: 10px;
+    width: 480px;
+}
+
 .pattern {
     background: url(../backgrounds/pattern.png) top left repeat;
     border-bottom: 1px solid #d8ebd5;
@@ -195,6 +204,11 @@ body {
 --------------------------------------------- */
 .container a {
     color: #267d18;
+    text-decoration: none;
+}
+
+.container a:hover {
+    text-decoration: underline;
 }
 
 .section p, .section ul, .section ol {
@@ -284,6 +298,18 @@ body {
 .section p.fancy-link a:hover { 
     background-color: #429334 !important; 
     color: #fff !important; 
+    text-decoration: none !important;
+}
+
+form.license-key input#customer_email {
+    border: 1px solid #ccc;
+    margin-bottom: 4px;
+    padding: 6px;
+}
+
+
+form.license-key input#commit {
+    clear: both;
 }
 
 

@@ -12,14 +12,50 @@ description: Shiny Development contact us
 	        <h2>Contact Us.</h2>
 	        
 	        <p class="excerpt">
-	             Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tristique orci vitae sem interdum condimentum.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tristique orci vitae sem interdum condimentum.
+	             Shiny Development is based in the UK within the beautiful city of Chester.
 	        </p>
 	        
-	        <p class="excerpt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tristique orci vitae sem interdum condimentum.</p>
+	        <p class="excerpt">
+	            Shiny Development <abbr title="Limited">Ltd</abbr><br />
+                S1C Chester Enterprise Centre,<br />
+                Hoole Bridge,<br />
+                Chester,<br />
+                CH2 3NE<br />
+                United Kingdom
+	        </p>
+	        
+	        <div id="googlemap"></div>
+            <script type="text/javascript">
+            <!--
+            google.load("maps", "2.x");	  
+            function initialize() { 			 			
+
+                function createMarker(point,html) { 			       
+                var marker = new GMarker(point); 			        
+                GEvent.addListener(marker, "click", function() { 			          
+                marker.openInfoWindowHtml(html); 			        
+                }); 			        
+                return marker; 			      
+                }
+
+            var map = new google.maps.Map2(document.getElementById("googlemap")); 			
+            var start = new google.maps.LatLng(53.197784, -2.88); 			
+            map.setCenter(start, 15); 			 						
+            map.addControl(new google.maps.SmallMapControl()); 			
+            new google.maps.KeyboardHandler(map); 			
+            map.enableContinuousZoom(); 			
+            map.enableDoubleClickZoom(); 
+            var point = new google.maps.LatLng(53.197784, -2.88); 			
+            var marker = createMarker(point,'N3 Design') 			
+            map.addOverlay(marker);			 			
+
+            } 		  
+            google.setOnLoadCallback(initialize);
+            -->
+            </script>
 
         </div>
 
-        <img src="assets/images/ipad-iphone.png" width="492" height="480" class="display-img" />
 
     </div>
 
@@ -32,43 +68,36 @@ description: Shiny Development contact us
 
         <div class="section">
 
-            <h3>Section Title</h3>
+            <h3>Contact Us</h3>
             
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tristique orci vitae sem interdum condimentum. Nunc vel ullamcorper purus. Aenean malesuada mattis erat, ac tincidunt massa fringilla quis. Nam sem purus, mollis vitae fringilla non, porta at libero. Fusce sollicitudin tristique leo, nec fringilla nisi aliquet et.
-            </p>
-            
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tristique orci vitae sem interdum condimentum. Nunc vel ullamcorper purus. Aenean malesuada mattis erat, ac tincidunt massa fringilla quis. Nam sem purus, mollis vitae fringilla non, porta at libero.
+                We would love to hear from you - you can e-mail us at <a href="mailto:contact@shinydevelopment.com">contact@shinydevelopment.com</a>.
             </p>
             
         </div>
         
-        <div class="section section-lower">
+        <div class="section">
 
-            <h3>Section Title</h3>
+            <h3>On Twitter</h3>
             
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tristique orci vitae sem interdum condimentum. Nunc vel ullamcorper purus. 
+                You can follow company news and updates or follow our co-founder Dave Verwer:
             </p>
             
-            <p>
-                Aenean malesuada mattis erat, ac tincidunt massa fringilla quis. Nam sem purus, mollis vitae fringilla non, porta at libero. Fusce sollicitudin tristique leo, nec fringilla nisi aliquet et.
-            </p>
+            <p><a href="http://twitter.com/shinydev">@shinydev</a><br />
+<a href="http://twitter.com/daveverwer">@daveverwer</a></p>
             
         </div>
         
-        <div class="section section-lower">
+        <div class="section">
 
-            <h3>Section Title</h3>
+            <h3>Lost License Key?</h3>
             
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tristique orci vitae sem interdum condimentum. Nunc vel ullamcorper purus. 
+                Lost your Speakapedia™ license key? Just enter the e-mail address that used during registration and we will e-mail you your license key! 
             </p>
             
-            <p>
-                Aenean malesuada mattis erat, ac tincidunt massa fringilla quis. Nam sem purus, mollis vitae fringilla non, porta at libero. Fusce sollicitudin tristique leo, nec fringilla nisi aliquet et.
-            </p>
+           <form action="http://www.shinydevelopment.com/lost_key" method="post" class="license-key"><div style="margin:0;padding:0;display:inline"><input name="authenticity_token" type="hidden" value="ebq4FJpzGT8YO+muFsNM7pP1EirBsuDhEojwlVYrq0o=" /></div>    <input id="customer_email" name="customer[email]" size="30" type="text" />    <input name="commit" type="submit" value="Recover license key" id="commit" />  </form>
             
         </div>
 
