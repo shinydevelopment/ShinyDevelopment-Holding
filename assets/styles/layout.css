@@ -272,6 +272,27 @@ body {
 }
 
 
+.section p.fancy-link {
+    margin-bottom: 10px;
+}
+
+.section p.fancy-link a {
+    background: #666 url(../images/button.png) 50% right repeat-x;
+    color: #fff !important;
+    display: inline-block;
+    font-weight: bold !important;
+    line-height: 2.1429em;
+    margin: 5px 0 !important;
+    padding: 0 35px 0 15px !important;
+    text-decoration: none !important;
+}
+
+.section p.fancy-link a:hover { 
+    background-color: #72a348 !important; 
+    color: #fff !important; 
+}
+
+
 /* @group Self Clear Floats
 --------------------------------------------- */
 .group:after {
