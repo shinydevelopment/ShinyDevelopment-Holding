@@ -14,7 +14,7 @@ Site specific JavaScript functionality
 $(document).ready(function () {
 	
 	// Cufon replacements
-    Cufon.replace('.header li, .section h2, .section h3, .section p.excerpt', {hover: true});
+    //Cufon.replace('.header li, .section h2, .section h3, .section p.excerpt', {hover: true});
 	
 	// make links with rel=external open in new window/tab
 	$(function() {
