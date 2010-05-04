@@ -314,6 +314,10 @@ body {
     text-decoration: none !important;
 }
 
+.section-app p.fancy-link {
+    margin-bottom: 40px;
+}
+
 .section p.fancy-link-top {
     margin-bottom: 10px;
 }
