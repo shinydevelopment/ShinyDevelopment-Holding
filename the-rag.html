@@ -18,15 +18,20 @@ description: Shiny Development Our Apps
 	        <p class="excerpt">Primed with over 50,000 possible combinations the RAG contains a wonderful storehouse of delightful calls to action – it will take you to the tipping point between view and do.</p>
 
         </div>
-
-        <div id="screencast-portrait">
-            <script type="text/javascript">
-                // <![CDATA[
-                  var qt = new QTObject("/assets/videos/rag.mov", "rag_screencast", "350", "600");
-                  qt.addParam("controller", "false");
-                  qt.write();
-                // ]]>
-                </script>
+        
+        <div class="screencast-portrait-container">
+        <div class="screencast-portrait">
+          <script type="text/javascript" charset="utf-8">
+            // <![CDATA[
+            var qt = new QTObject("http://content.balloonsapp.com/balloons_embedded.m4v", "balloons_preview", "200", "300");
+            qt.addParam("autostart", "true");
+            qt.addParam("loop", "true");
+            qt.addParam("target", "myself");
+            qt.addParam("controller", "false");
+            qt.write();
+            // ]]>
+          </script>
+        </div>
         </div>
 
     </div>

@@ -135,6 +135,26 @@ body {
     top: -20px;
 }
 
+.content-upper .screencast-portrait-container {
+    display: inline;
+    float: right;
+    position: absolute;
+    right: 30px;
+    top: 0px;
+}
+
+.content-upper .screencast-portrait {
+  background: url(../images/iphone-frame.png) top left no-repeat;
+  color: #fff;
+  display: inline;
+  float: left;
+  height: 386px;
+  margin-right: 48px;
+  padding: 74px 26px 25px 26px;
+  width: 200px;
+  
+}
+
 .content-upper div#googlemap {
     border: 5px solid #f4f4f4;
     position: absolute;
@@ -316,7 +336,7 @@ body {
     margin-bottom: 10px;
 }
 .section p.fancy-link a {
-    background: #666 url(../images/button.png) 50% right repeat-x;
+    background: #666 url(../images/button.png) right 50% repeat-x;
     color: #fff !important;
     display: inline-block;
     font-weight: bold !important;
