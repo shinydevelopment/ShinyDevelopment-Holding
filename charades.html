@@ -20,15 +20,20 @@ description: Shiny Development Our Apps
 	        <p class="excerpt">A game for all ages, the software generates new challenges from a pool of over 900 individual charades so you can play for as long as you want to!</p>
 
         </div>
-
-        <div id="screencast">
-            <script type="text/javascript">
+        
+        <div class="screencast-landscape-container">
+        <div class="screencast-landscape">
+          <script type="text/javascript" charset="utf-8">
             // <![CDATA[
-              var qt = new QTObject("/assets/videos/charades.mov", "charades_screencast", "550", "300");
-              qt.addParam("controller", "false");
-              qt.write();
+            var qt = new QTObject("/assets/videos/charades.mov", "charades_screencast", "300", "200");
+            qt.addParam("autostart", "true");
+            qt.addParam("loop", "true");
+            qt.addParam("target", "myself");
+            qt.addParam("controller", "false");
+            qt.write();
             // ]]>
-            </script>
+          </script>
+        </div>
         </div>
 
     </div>

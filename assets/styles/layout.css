@@ -143,6 +143,14 @@ body {
     top: 0px;
 }
 
+.content-upper .screencast-landscape-container {
+    display: inline;
+    float: right;
+    position: absolute;
+    right: 10px;
+    top: 60px;
+}
+
 .content-upper .screencast-portrait {
   background: url(../images/iphone-frame.png) top left no-repeat;
   color: #fff;
@@ -152,6 +160,17 @@ body {
   margin-right: 48px;
   padding: 74px 26px 25px 26px;
   width: 200px;
+  
+}
+
+.content-upper .screencast-landscape {
+  background: url(../images/iphone-frame-horiz.png) top left no-repeat;
+  color: #fff;
+  display: inline;
+  float: left;
+  height: 200px;
+  padding: 26px 25px 26px 74px;
+  width: 347px;
   
 }
 
