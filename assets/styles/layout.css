@@ -139,7 +139,7 @@ body {
     display: inline;
     float: right;
     position: absolute;
-    right: 30px;
+    right: 50px;
     top: 0px;
 }
 
@@ -258,7 +258,7 @@ body {
     border-bottom: 0;
 }
 
-.content-lower .section-lower{
+.content-lower .section-lower, .content-lower-alt .section-app-lower {
     padding-top: 150px;
 }
 
