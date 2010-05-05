@@ -131,8 +131,8 @@ body {
 
 .content-upper #screencast-speakapedia {
     position: absolute;
-    right: 10px;
-    top: -15px;
+    right: 15px;
+    top: -20px;
 }
 
 .content-upper div#googlemap {
