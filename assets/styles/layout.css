@@ -85,7 +85,7 @@ body.blog, body.blog-post {
     text-decoration: none;
 }
 
-.header li a:hover, .blog .header li#nav_blog a {
+.header li a:hover, .blog .header li#nav_blog a, .blog-post .header li#nav_blog a {
     background-color: #3c9b2d;
     color: #fff;
     text-decoration: none;
