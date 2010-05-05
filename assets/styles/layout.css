@@ -14,11 +14,17 @@ Main CSS layout styles
 /* @group Page Structure
 --------------------------------------------- */
 body { 
-    background: #fff url(../backgrounds/body.png) 50% top no-repeat;
+    background: #fff url(../backgrounds/body.png) top 50% no-repeat;
     color: #000;
     font-family: "Lucida Grande", Helvetica, Arial, sans-serif; 
     margin: 0; 
     padding: 0;
+}
+
+body.blog, body.blog-post { 
+    background: #fff url(../backgrounds/body-blog.png) bottom 50% no-repeat;
+    
+	background-attachment: fixed;
 }
 
 .wrapper {
@@ -79,7 +85,7 @@ body {
     text-decoration: none;
 }
 
-.header li a:hover {
+.header li a:hover, .blog .header li#nav_blog a {
     background-color: #3c9b2d;
     color: #fff;
     text-decoration: none;
@@ -389,6 +395,82 @@ form.license-key input#customer_email {
 form.license-key input#commit {
     clear: both;
 }
+
+
+/* @group Blog Styles
+--------------------------------------------- */
+.section-blog {
+    display: inline;
+    float: left;
+    padding: 20px 35px 0 15px;
+    width: 650px;
+}
+
+.section-blog h3 {
+    margin-bottom: 5px;
+}
+
+.section-blog .article {
+    border-bottom: 1px solid #d8ebd5;
+    display: inline;
+    float: left;
+    margin: 0 0 20px 0;
+    padding: 0 0 20px 0;
+    width: 675px;
+}
+
+.section-blog p.post-meta {
+    font-size: 1.2em;
+}
+
+.aside {
+    display: inline;
+    float: right;
+    padding: 80px 0 0 10px;
+    width: 190px;
+}
+
+.aside ul {
+    font-size: 1.4em;
+    line-height: 1.4286em;
+    list-style: none;
+    margin: 0 0 20px 0;
+    padding: 0;
+}
+
+.aside h3 {
+    color: #111;
+    font-size: 1.8em;
+    font-weight: bold;
+    line-height: 1.111em;
+}
+
+.blog-post h2 {
+    margin-bottom: 5px;
+}
+
+.blog-post blockquote {
+    margin-left: 0;
+    padding-left: 15px;
+}
+
+.blog-post blockquote {
+    border-left: 2px solid #d8ebd5;
+    margin-left: 5px;
+    padding-left: 15px;
+}
+
+.blog-post blockquote p {
+    color: #333;
+}
+
+.content-lower .section blockquote p.author, .content-lower-alt .section blockquote p.author {
+    font-style: normal;
+    font-weight: bold;
+}
+
+/* @end */
+
 
 
 /* @group Self Clear Floats
