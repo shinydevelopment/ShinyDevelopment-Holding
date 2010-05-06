@@ -1,6 +1,7 @@
 ---
 layout: blog
-title: Blog
+title: iPhone Developer Blog | Shiny Development
+description: iPhone Developer Blog from Shiny Development and Dave Verwer
 ---
 
 {% for post in site.posts limit:5 %}
