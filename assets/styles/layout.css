@@ -22,8 +22,7 @@ body {
 }
 
 body.blog, body.blog-post { 
-    background: #fff url(../backgrounds/body-blog.png) bottom 50% no-repeat;
-    
+    background: #fff url(../backgrounds/body-blog.png) bottom 50% no-repeat;  
 	background-attachment: fixed;
 }
 
@@ -300,12 +299,62 @@ body.blog, body.blog-post {
     margin-bottom: 20px;
 }
 
+.section h2.speakapedia {
+    background: url(../icons/speakapedia.png) 50% left no-repeat;
+    padding-left: 50px;
+}
+
+.section h2.the-rag {
+    background: url(../icons/the-rag.png) 50% left no-repeat;
+    padding-left: 50px;
+}
+
+.section h2.charades {
+    background: url(../icons/charades.png) 50% left no-repeat;
+    padding-left: 50px;
+}
+
+.section h2.explore-flickr {
+    background: url(../icons/explore-flickr.png) 50% left no-repeat;
+    padding-left: 50px;
+}
+
 .section h3 {
     color: #267d18;
     font-size: 1.8em;
     font-weight: bold;
     line-height: 1.111em;
     margin-bottom: 20px;
+}
+
+.section-app h3.balloons {
+    background: url(../icons/balloons-small.png) 50% left no-repeat;
+    line-height: 1.333em;
+    padding-left: 35px;
+}
+
+.section-app h3.speakapedia {
+    background: url(../icons/speakapedia-small.png) 50% left no-repeat;
+    line-height: 1.333em;
+    padding-left: 35px;
+}
+
+.section-app h3.the-rag {
+    background: url(../icons/the-rag-small.png) 50% left no-repeat;
+    line-height: 1.333em;
+    padding-left: 35px;
+}
+
+.section-app h3.charades {
+    background: url(../icons/charades-small.png) 50% left no-repeat;
+    line-height: 1.333em;
+    padding-left: 35px;
+}
+
+.section-app h3.explore-flickr {
+    background: url(../icons/explore-flickr-small.png) 50% left no-repeat;
+    line-height: 1.333em;
+    padding-left: 35px;
 }
 
 .section h4 {
@@ -421,6 +470,26 @@ form.license-key input#commit {
 
 .section-blog p.post-meta {
     font-size: 1.2em;
+}
+
+.section-blog .page-navigation {
+    clear: left;
+    display: inline;
+    float: left;
+    width: 620px;
+}
+
+.section-blog .page-navigation .left {
+    display: inline;
+    float: left;
+    width: 200px;
+}
+
+.section-blog .page-navigation .right {
+    display: inline;
+    float: right;
+    text-align: right;
+    width: 200px;
 }
 
 .aside {
