@@ -19,22 +19,7 @@
             
     </div>
     
-    <div class="aside">
-
-        <h3>Related Posts</h3>
-        <ul class="posts">
-            {% for post in site.related_posts limit:3 %}
-            <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-            {% endfor %}
-        </ul>
-
-        <h3>Categories</h3>
-        <ul>
-            <li><a href="/blog/iphone">iPhone ({{ site.categories.iphone | size }})</a></li>
-            <li><a href="/blog/osx">OS X ({{ site.categories.osx | size }})</a></li>
-        </ul>
-
-    </div>
+    {% include sidebar.html %}
 
     </div>
 

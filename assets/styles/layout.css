@@ -448,6 +448,7 @@ form.license-key input#commit {
 .aside .callout {
     background: url(../backgrounds/pattern.png) top left repeat;
     border: 1px solid #d8ebd5;
+    margin: 0 0 20px 0;
     padding: 15px 15px 0 15px;
 }
 

@@ -3,3 +3,4 @@ server: false
 destination: ./_site
 markdown: rdiscount
 exclude: templates
+url: http://shinydevelopment.com
