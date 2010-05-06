@@ -14,7 +14,7 @@ Main CSS layout styles
 /* @group Page Structure
 --------------------------------------------- */
 body { 
-    background: #fff url(../backgrounds/body.png) top 50% no-repeat;
+    background: #fff url(../backgrounds/body.png) 50% top no-repeat;
     color: #000;
     font-family: "Lucida Grande", Helvetica, Arial, sans-serif; 
     margin: 0; 
@@ -22,7 +22,7 @@ body {
 }
 
 body.blog, body.blog-post { 
-    background: #fff url(../backgrounds/body-blog.png) bottom 50% no-repeat;  
+    background: #fff url(../backgrounds/body-blog.png) 50% bottom no-repeat;  
 	background-attachment: fixed;
 }
 
