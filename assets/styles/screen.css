@@ -14,6 +14,7 @@ license/re-use information
 
 /* import stylesheets and hide from IE/Mac \*/
 @import url(reset.css);
+@import url(superfish.css);
 @import url(layout.css);
 @import url(progressive.css);
 /* end import/hide */

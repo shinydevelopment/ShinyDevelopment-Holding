@@ -27,6 +27,7 @@ body.blog, body.blog-post {
 }
 
 .wrapper {
+    clear: both;
     display: inline;
     float: left;
     width: 100%;
@@ -56,6 +57,7 @@ body.blog, body.blog-post {
 }
 
 .header ul {
+    background: none;
     display: inline;
     font-size: 1.6em;
     line-height: 1.25em;
@@ -65,12 +67,27 @@ body.blog, body.blog-post {
     float: right;
 }
 
+.header ul ul {
+    background: none;
+    clear: both;
+    display: inline;
+    float: left;
+    font-size: 1.0em;
+    line-height: 1.0em;
+    margin-top: 0px;
+}
+
 .header li {
+    background: none;
     display: inline;
     float: left;
     list-style: none;
     margin: 0 5px;
     padding: 0;
+}
+
+.header li li {
+    clear: left;
 }
 
 .header li a {
@@ -300,22 +317,22 @@ body.blog, body.blog-post {
 }
 
 .section h2.speakapedia {
-    background: url(../icons/speakapedia.png) 50% left no-repeat;
+    background: url(../icons/speakapedia.png) left 50% no-repeat;
     padding-left: 50px;
 }
 
 .section h2.the-rag {
-    background: url(../icons/the-rag.png) 50% left no-repeat;
+    background: url(../icons/the-rag.png) left 50% no-repeat;
     padding-left: 50px;
 }
 
 .section h2.charades {
-    background: url(../icons/charades.png) 50% left no-repeat;
+    background: url(../icons/charades.png) left 50% no-repeat;
     padding-left: 50px;
 }
 
 .section h2.explore-flickr {
-    background: url(../icons/explore-flickr.png) 50% left no-repeat;
+    background: url(../icons/explore-flickr.png) left 50% no-repeat;
     padding-left: 50px;
 }
 
@@ -328,31 +345,31 @@ body.blog, body.blog-post {
 }
 
 .section-app h3.balloons {
-    background: url(../icons/balloons-small.png) 50% left no-repeat;
+    background: url(../icons/balloons-small.png) left 50% no-repeat;
     line-height: 1.333em;
     padding-left: 35px;
 }
 
 .section-app h3.speakapedia {
-    background: url(../icons/speakapedia-small.png) 50% left no-repeat;
+    background: url(../icons/speakapedia-small.png) left 50% no-repeat;
     line-height: 1.333em;
     padding-left: 35px;
 }
 
 .section-app h3.the-rag {
-    background: url(../icons/the-rag-small.png) 50% left no-repeat;
+    background: url(../icons/the-rag-small.png) left 50% no-repeat;
     line-height: 1.333em;
     padding-left: 35px;
 }
 
 .section-app h3.charades {
-    background: url(../icons/charades-small.png) 50% left no-repeat;
+    background: url(../icons/charades-small.png) left 50% no-repeat;
     line-height: 1.333em;
     padding-left: 35px;
 }
 
 .section-app h3.explore-flickr {
-    background: url(../icons/explore-flickr-small.png) 50% left no-repeat;
+    background: url(../icons/explore-flickr-small.png) left 50% no-repeat;
     line-height: 1.333em;
     padding-left: 35px;
 }
@@ -394,16 +411,41 @@ body.blog, body.blog-post {
 .section ul.app-list li {
     display: inline;
     float: left;
+    line-height: 30px;
+    padding-left: 30px;
     width: 260px;
 }
 
-.section li.balloons {
+.section ul.app-list li.speakapedia {
+    background: url(../icons/speakapedia-small.png) left 50% no-repeat;
+}
+
+.section ul.app-list li.the-rag {
+    background: url(../icons/the-rag-small.png) left 50% no-repeat;
+}
+
+.section ul.app-list li.charades {
+    background: url(../icons/charades-small.png) left 50% no-repeat;
+}
+
+.section ul.app-list li.balloons {
     background: url(../images/whats-hot.png) top left no-repeat;
     display: inline;
     float: left;
+    line-height: normal;
     height: 60px;
     margin: 0 0 10px 0;
     padding: 5px 0 0 85px;
+}
+
+.section ul.app-list li a {
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.section ul.app-list li a:hover {
+    text-decoration: underline;
 }
 
 .section .overview li {
@@ -546,6 +588,52 @@ form.license-key input#commit {
 }
 
 /* @end */
+
+
+/* @group Superfish Overrides
+--------------------------------------------- */
+.sf-menu li a {
+    margin-left: 0px;
+}
+
+.sf-menu a.sf-with-ul {
+	padding-right:  10px;
+	min-width:		1px; /* trigger IE7 hasLayout so spans position accurately */
+}
+
+.sf-sub-indicator {
+    display: none !important;
+}
+
+.sf-menu ul {
+    border: 1px solid #d9ebd4;
+    margin: 0;
+    padding: 0;
+    width: 230px;
+}
+
+.sf-menu ul li {
+    background: none;
+    border-bottom: 1px solid #d9ebd4;
+    margin: 0;
+}
+
+.sf-menu ul li a {
+    background: #f1f7ef;
+    margin: 0;
+    padding: 5px 10px;
+    width: 210px;
+}
+
+.sf-menu li:hover ul,
+.sf-menu li.sfHover ul {
+	left:			0;
+	top:			2.0em; /* match top ul list item height */
+	z-index:		99;
+}
+
+/* @end */
+
 
 
 
