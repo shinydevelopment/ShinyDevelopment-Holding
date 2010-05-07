@@ -21,16 +21,12 @@ description: Shiny Development Our Apps
         
         <div class="screencast-portrait-container">
         <div class="screencast-portrait">
-          <script type="text/javascript" charset="utf-8">
-            // <![CDATA[
-            var qt = new QTObject("http://content.balloonsapp.com/balloons_embedded.m4v", "balloons_preview", "200", "300");
-            qt.addParam("autostart", "true");
-            qt.addParam("loop", "true");
-            qt.addParam("target", "myself");
-            qt.addParam("controller", "false");
-            qt.write();
-            // ]]>
-          </script>
+            
+            <video id="movie" width="200" height="300" preload="none" controls autobuffer autoplay>
+                <source src="http://shinydev.s3.amazonaws.com/videos/rag.ogv" type='video/ogg; codecs="theora, vorbis"'>
+                <source src="http://shinydev.s3.amazonaws.com/videos/rag.mov" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+            </video>
+            
         </div>
         </div>
 

@@ -23,16 +23,12 @@ description: Shiny Development Our Apps
         
         <div class="screencast-landscape-container">
         <div class="screencast-landscape">
-          <script type="text/javascript" charset="utf-8">
-            // <![CDATA[
-            var qt = new QTObject("/assets/videos/charades.mov", "charades_screencast", "300", "200");
-            qt.addParam("autostart", "true");
-            qt.addParam("loop", "true");
-            qt.addParam("target", "myself");
-            qt.addParam("controller", "false");
-            qt.write();
-            // ]]>
-          </script>
+            
+            <video id="movie" width="300" height="200" preload="none" controls autobuffer autoplay>
+                <source src="http://shinydev.s3.amazonaws.com/videos/charades.ogv" type='video/ogg; codecs="theora, vorbis"'>
+                <source src="http://shinydev.s3.amazonaws.com/videos/charades.mov" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+            </video>
+            
         </div>
         </div>
 

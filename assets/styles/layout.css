@@ -170,7 +170,7 @@ body.blog, body.blog-post {
     float: right;
     position: absolute;
     right: 10px;
-    top: 60px;
+    top: 50px;
 }
 
 .content-upper .screencast-portrait {
@@ -472,7 +472,7 @@ body.blog, body.blog-post {
     margin-bottom: 40px;
 }
 
-.section p.fancy-link-top {
+.section p.fancy-link-top, .content-upper .section p.fancy-link {
     margin-bottom: 10px;
 }
 
