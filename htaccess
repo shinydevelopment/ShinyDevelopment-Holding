@@ -3,7 +3,6 @@ RewriteEngine on
 
 RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
 RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
-RewriteRule ^(.*)\.html$ $1 [NC]
 
 AddType audio/ogg .oga
 AddType video/ogg .ogv .ogg
