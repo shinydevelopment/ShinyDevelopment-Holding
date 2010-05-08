@@ -1,8 +1,7 @@
 --- 
-wordpress_id: 73
 layout: post
 title: iPhone Game Scoreboard using Core Animation
-wordpress_url: http://blog.daveverwer.com/?p=73
+author: @daveverwer
 ---
 I have been helping out recently with a project running between <a href="http://www.uclan.ac.uk/">UCLAN</a> and <a href="http://www.lancs.ac.uk/">Lancaster University</a> which involves two teams of students working together to create a couple of iPhone games.
 
@@ -14,7 +13,7 @@ It has been implemented as a simple CALayer subclass that takes care of all of t
 
 The images must be named 0.png through 9.png and included in the resources bundle but as long as you do that it should cope with any sized images as long as they are all the same size. The code can be found <a href="http://github.com/daveverwer/SDScoreBoard">on github</a>.
 
-<strong>UPDATE:</strong> Thanks to <a href="http://johnmckerrell.com/">John McKerrell</a> for the suggestion that to give a little more realism, digits should transition in from the bottom coming from a lower number and in from the top from a higher number. This needed a bit of a hack around the 0/9 boundary but I think the outcome is pretty good. This is how it looks.
+<strong>UPDATE:</strong> Thanks to <a href="http://johnmckerrell.com/">John McKerrell</a> for the suggestion that to give a little more realism, digits should transition in from the bottom coming from a lower number and in from the top from a higher number. This needed a bit of a hack around the 0/9 boundary but I think the outcome is pretty good. This is how it looks.
 
 <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="480" height="385" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="allowFullScreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="src" value="http://www.youtube.com/v/kXvYgoL1Gbo&amp;hl=en&amp;fs=1&amp;rel=0" /><param name="allowfullscreen" value="true" /><embed type="application/x-shockwave-flash" width="480" height="385" src="http://www.youtube.com/v/kXvYgoL1Gbo&amp;hl=en&amp;fs=1&amp;rel=0" allowscriptaccess="always" allowfullscreen="true"></embed></object>
 
