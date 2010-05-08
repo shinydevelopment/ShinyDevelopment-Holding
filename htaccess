@@ -1,4 +1,4 @@
-Options +SymLinksIfOwnerMatch
+Options +SymLinksIfOwnerMatch +MultiViews
 RewriteEngine on
 
 # Get rid of www in the domain
