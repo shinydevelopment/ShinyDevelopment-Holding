@@ -4,3 +4,4 @@ destination: ./_site
 markdown: rdiscount
 exclude: templates, capfile, capistrano
 url: http://shinydevelopment.com
+permalink: /blog/:title
