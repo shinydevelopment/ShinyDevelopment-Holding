@@ -2,6 +2,7 @@
 layout: post
 title: How and Why do Balloons Pop?
 author: @daveverwer
+excerpt: One of the biggest problems we have had to deal with since <a href="http://balloonsapp.com">Balloons!</a> went live on the app store is the issues around how and why Balloons pop so I thought I would write up some of the experiences and explain some of the reasoning behind popping balloons!
 ---
 One of the biggest problems we have had to deal with since <a href="http://balloonsapp.com">Balloons!</a> went live on the app store is the issues around how and why Balloons pop so I thought I would write up some of the experiences and explain some of the reasoning behind popping balloons!
 <h3>First Problem: Misunderstanding</h3>

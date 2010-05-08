@@ -2,6 +2,7 @@
 layout: post
 title: The Moderation Problem?
 author: @daveverwer
+excerpt: During the development of <a href="http://balloonsapp.com">Balloons!</a> I would tell people about the idea and they would occasionally come back with "But what about abuse? Isn't it going to be filled up with porn/spam/etc... within a few days?".
 ---
 During the development of <a href="http://balloonsapp.com">Balloons!</a> I would tell people about the idea and they would occasionally come back with "But what about abuse? Isn't it going to be filled up with porn/spam/etc... within a few days?". We also got the similar concerns when reviews started appearing, in fact the first comment on the <a href="http://www.tuaw.com/2009/11/08/balloons-sending-out-a-mystery-message-on-your-iphone/">TUAW review</a> was:
 

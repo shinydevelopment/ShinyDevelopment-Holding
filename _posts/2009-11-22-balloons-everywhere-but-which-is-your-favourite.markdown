@@ -2,6 +2,7 @@
 layout: post
 title: Balloons everywhere, but which is your favourite?
 author: @daveverwer
+excerpt: They say that a picture is worth a thousand words, so I will keep this brief and get to the picture!
 ---
 They say that a picture is worth a thousand words, so I will keep this brief and get to the picture!
 

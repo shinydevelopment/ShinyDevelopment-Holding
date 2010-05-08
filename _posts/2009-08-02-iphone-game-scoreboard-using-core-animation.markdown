@@ -2,6 +2,7 @@
 layout: post
 title: iPhone Game Scoreboard using Core Animation
 author: @daveverwer
+excerpt: I have been helping out recently with a project running between <a href="http://www.uclan.ac.uk/">UCLAN</a> and <a href="http://www.lancs.ac.uk/">Lancaster University</a> which involves two teams of students working together to create a couple of iPhone games.
 ---
 I have been helping out recently with a project running between <a href="http://www.uclan.ac.uk/">UCLAN</a> and <a href="http://www.lancs.ac.uk/">Lancaster University</a> which involves two teams of students working together to create a couple of iPhone games.
 

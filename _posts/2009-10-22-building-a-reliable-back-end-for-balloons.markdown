@@ -2,6 +2,7 @@
 layout: post
 title: Building a reliable back end for Balloons!
 author: @daveverwer
+excerpt: So I have spent the last few months building our new iPhone app, <a href="http://balloonsapp.com">Balloons!</a>. Obviously it needs a back end web service to move all of the balloons around the skies and host all of the attached messages. The back end is (predictably for me) written in Ruby on Rails and we just finished moving the hosting for it to <a href="http://brightbox.co.uk">Brightbox</a>.
 ---
 So I have spent the last few months building our new iPhone app, <a href="http://balloonsapp.com">Balloons!</a>
 
