@@ -1,9 +1,16 @@
 Options +SymLinksIfOwnerMatch
 RewriteEngine on
 
+# Get rid of www in the domain
 RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
 RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
 
-AddType audio/ogg .oga
-AddType video/ogg .ogv .ogg
-AddType video/mp4 .mp4 .m4v
+# Get rid of html extensions
+RewriteCond %{THE_REQUEST} \.html/?
+RewriteCond %{THE_REQUEST} !\?.*\.html
+RewriteRule ^([^\?]+)\.html(\?.*)?$ /$1$2 [R=301,L]
+
+# Get rid of index problem in directories
+RewriteCond %{THE_REQUEST} index
+RewriteCond %{THE_REQUEST} !\?.*\index
+RewriteRule ^([^\?]*)index\.html(\?.*)?$ /$1$2 [R=301,L]
