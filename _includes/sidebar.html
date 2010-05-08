@@ -11,8 +11,8 @@
   {% if site.related_posts %}
   <h3>Related Posts</h3>
   <ul class="posts">
-    {% for post in site.related_posts limit:3 %}
-    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% for post in site.related_posts limit:4 %}
+    <li><a href="{{ post.url }}">{{ post.title }}</a><hr style="border: 1px black solid;" /></li>
     {% endfor %}
   </ul>
   {% endif %}
