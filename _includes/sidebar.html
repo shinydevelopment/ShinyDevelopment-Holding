@@ -1,25 +1,19 @@
 <div class="aside">
+  <div class="callout">
+    <h3>About Dave Verwer</h3>
+    <p>Dave is an iPhone developer and trainer and is the creator of <a href="http://balloonsapp.com">Balloons! for iPhone</a> which has been ranked #1 in the iTunes "What's Hot" featured application around the world.</p>
+    <p>Dave has been developing with the iPhone SDK since it was first released, has developed several successful applications and trained over a hundred other people to do the same!</p>
+  </div>
+  <div class="callout">
+    <p>Interested in learning how to develop iPhone apps? Check out our <a href="/training">training courses</a>.</p>
+  </div>
 
-    <div class="callout">
-        
-        <h3>About Dave Verwer</h3>
-
-        <p>Dave Verwer is the developer of Balloons! for iPhone which has been a #1
-            What's Hot featured application in the US and other countries around the world.</p>
-
-        <p>Dave describes himself primarily as an iPhone and iPad developer rather than a full time trainer 
-            has been developing with the iPhone SDK since it was first released.</p>
-
-    </div>
-    
-    
-    {% if site.related_posts %}
-    <h3>Related Posts</h3>
-    <ul class="posts">
-        {% for post in site.related_posts limit:3 %}
-        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-        {% endfor %}
-    </ul>
-    {% endif %}
-
+  {% if site.related_posts %}
+  <h3>Related Posts</h3>
+  <ul class="posts">
+    {% for post in site.related_posts limit:3 %}
+    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+  {% endif %}
 </div>
