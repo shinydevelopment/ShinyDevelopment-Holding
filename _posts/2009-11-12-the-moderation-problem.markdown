@@ -12,7 +12,7 @@ With the immediate follow up being:
 
 <blockquote>Or spam?</blockquote>
 
-So, we are now one week in to being live on the app store and with over 11,000 balloons launched I thought I would give an update on what has happened on this subject. The good news is that so far it has not been the huge problem that people predicted. In total, about 1.2% of all balloons have been reported and we ended up popping about 0.5% of all balloons and virtually all of them have been spam rather than inappropriate content.
+So, we are now one week in to being live on the app store and with over 11,000 balloons launched I thought I would give an update on what has happened on this subject. The good news is that so far it has not been the huge problem that people predicted. In total, about 1.2% of all balloons have been reported and we ended up popping about 0.5% of all balloons and virtually all of them have been spam rather than inappropriate content.
 
 <h3>Why isn't it full of porn?</h3>
 
