@@ -26,12 +26,14 @@ body.blog, body.blog-post {
 	background-attachment: fixed;
 }
 
+/*
 .wrapper {
     clear: both;
     display: inline;
     float: left;
     width: 100%;
 }
+*/
 
 .wrapper-upper {
     background: #fff url(../backgrounds/body-revised.png) 50% bottom no-repeat;
