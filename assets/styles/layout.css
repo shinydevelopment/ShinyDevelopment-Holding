@@ -14,7 +14,7 @@ Main CSS layout styles
 /* @group Page Structure
 --------------------------------------------- */
 body { 
-    background: #fff url(../backgrounds/body.png) 50% top no-repeat;
+    /*background: #fff url(../backgrounds/body.png) 50% top no-repeat;*/
     color: #000;
     font-family: "Lucida Grande", Helvetica, Arial, sans-serif; 
     margin: 0; 
@@ -31,6 +31,14 @@ body.blog, body.blog-post {
     display: inline;
     float: left;
     width: 100%;
+}
+
+.wrapper-upper {
+    background: #fff url(../backgrounds/body-revised.png) 50% bottom no-repeat;
+}
+
+.blog .wrapper-upper, .blog-post .wrapper-upper {
+    background: none;
 }
 
 .container {
@@ -53,6 +61,13 @@ body.blog, body.blog-post {
     margin: 0;
     padding: 0;
     text-indent: -9999px;
+    width: 100px;
+}
+
+.header h1 a {
+    display: inline;
+    float: left;
+    height: 100px;
     width: 100px;
 }
 
@@ -310,9 +325,9 @@ body.blog, body.blog-post {
 
 .section h2 {
     color: #222;
-    font-size: 3.0em;
+    font-size: 2.6em;
     font-weight: bold;
-    line-height: 1.3333em;
+    line-height: 1.5385em;
     margin-bottom: 20px;
 }
 
@@ -585,6 +600,22 @@ form.license-key input#commit {
 .content-lower .section blockquote p.author, .content-lower-alt .section blockquote p.author {
     font-style: normal;
     font-weight: bold;
+}
+
+.blog ul.archive {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.blog-post ul.posts li, .blog ul.archive li {
+    border-bottom: 1px solid #d8ebd5;
+    margin: 0 0 5px 0;
+    padding: 0 0 5px 0;
+}
+
+.blog ul.archive li span {
+    font-size: 12px;
 }
 
 /* @end */
