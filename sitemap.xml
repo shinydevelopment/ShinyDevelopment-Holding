@@ -34,7 +34,7 @@ layout: nil
 		<priority>1.0</priority>
 	</url>
 	<url>
-		<loc>{{ site.url }}/in-house-training</loc>
+		<loc>{{ site.url }}/in-house-iphone-os-training</loc>
 		<lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
 		<changefreq>daily</changefreq>
 		<priority>1.0</priority>
