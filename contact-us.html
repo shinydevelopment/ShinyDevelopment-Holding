@@ -4,105 +4,59 @@ title: Contact Us | Shiny Development
 description: Shiny Development contact us
 permalink: /contact-us/
 ---
-    
-    <div class="container content-upper">
-        
-        <div class="section ">
-	
-	        <h2>Contact Us.</h2>
-	        
-	        <p class="excerpt">
-	             Shiny Development is based in the UK within the beautiful city of Chester.
-	        </p>
-	        
-	        <p class="excerpt">
-	            Shiny Development <abbr title="Limited">Ltd</abbr><br />
-                S1C Chester Enterprise Centre,<br />
-                Hoole Bridge,<br />
-                Chester,<br />
-                CH2 3NE<br />
-                United Kingdom
-	        </p>
-	        
-	        <div id="googlemap"></div>
-            <script type="text/javascript">
-            <!--
-            google.load("maps", "2.x");	  
-            function initialize() { 			 			
+<div class="container content-upper">
+  <div class="section ">
+    <h2>Contact Us.</h2>
+    <p class="excerpt">Shiny Development is based in the UK within the beautiful city of Chester.</p>
+    <p class="excerpt">Shiny Development <abbr title="Limited">Ltd</abbr><br />
+      S1C Chester Enterprise Centre,<br />
+      Hoole Bridge,<br />
+      Chester,<br />
+      CH2 3NE<br />
+      United Kingdom</p>
 
-                function createMarker(point,html) { 			       
-                var marker = new GMarker(point); 			        
-                GEvent.addListener(marker, "click", function() { 			          
-                marker.openInfoWindowHtml(html); 			        
-                }); 			        
-                return marker; 			      
-                }
-
-            var map = new google.maps.Map2(document.getElementById("googlemap")); 			
-            var start = new google.maps.LatLng(53.197784, -2.88); 			
-            map.setCenter(start, 15); 			 						
-            map.addControl(new google.maps.SmallMapControl()); 			
-            new google.maps.KeyboardHandler(map); 			
-            map.enableContinuousZoom(); 			
-            map.enableDoubleClickZoom(); 
-            var point = new google.maps.LatLng(53.197784, -2.88); 			
-            var marker = createMarker(point,'N3 Design') 			
-            map.addOverlay(marker);			 			
-
-            } 		  
-            google.setOnLoadCallback(initialize);
-            -->
-            </script>
-
-        </div>
-
-
-    </div>
+    <div id="googlemap"></div>
+    <script type="text/javascript">
+    <!--
+    google.load("maps", "2.x");	  
+    function initialize() { 			 			
+      function createMarker(point,html) { 			       
+        var marker = new GMarker(point); 			        
+        GEvent.addListener(marker, "click", function() { 			          
+          marker.openInfoWindowHtml(html); 			        
+        }); 			        
+        return marker; 			      
+      }
+      var map = new google.maps.Map2(document.getElementById("googlemap")); 			
+      var start = new google.maps.LatLng(53.197784, -2.88); 			
+      map.setCenter(start, 15); 			 						
+      map.addControl(new google.maps.SmallMapControl()); 			
+      new google.maps.KeyboardHandler(map); 			
+      map.enableContinuousZoom(); 			
+      map.enableDoubleClickZoom(); 
+      var point = new google.maps.LatLng(53.197784, -2.88); 			
+      var marker = createMarker(point,'N3 Design') 			
+      map.addOverlay(marker);			 			
+    } 		  
+    google.setOnLoadCallback(initialize);
+    -->
+    </script>
+  </div>
+</div>
 
 </div>
-    
 
 <div class="wrapper pattern">
-    
-    <div class="container content-lower">
-
-        <div class="section">
-
-            <h3>Contact Us</h3>
-            
-            <p>
-                If you would like to contact us to discuss how Shiny Development can help with your iPhone or iPad requirements just email us by clicking the link below:
-            </p>
-            
-            <p class="fancy-link"><a href="mailto:contact@shinydevelopment.com">Click to email us</a></p>
-            
-        </div>
-        
-        <div class="section">
-
-            <h3>On Twitter</h3>
-            
-            <p>
-                You can follow company news and updates or follow our co-founder Dave Verwer:
-            </p>
-            
-            <p>@shinydev<br />
-@daveverwer</p>
-            
-        </div>
-        
-        <div class="section">
-
-            <h3>Lost License Key?</h3>
-            
-            <p>
-                Lost your Speakapedia™ license key? Just enter the e-mail address that used during registration and we will e-mail you your license key! 
-            </p>
-            
-           <form action="http://www.shinydevelopment.com/lost_key" method="post" class="license-key"><div style="margin:0;padding:0;display:inline"><input name="authenticity_token" type="hidden" value="ebq4FJpzGT8YO+muFsNM7pP1EirBsuDhEojwlVYrq0o=" /></div>    <input id="customer_email" name="customer[email]" size="30" type="text" />    <input name="commit" type="submit" value="Recover license key" id="commit" />  </form>
-            
-        </div>
-
+  <div class="container content-lower">
+    <div class="section section-double">
+      <h3>Contact Us</h3>
+      <p>If you would like a quote for an in-house training course, more information about our public training courses or further details about our consultancy services. Or if you just want to say Hi! Please do email us.</p>
+      <p class="fancy-link"><a href="mailto:contact@shinydevelopment.com">Email Shiny Development</a></p>
     </div>
-<br style="clear:both" />        
+    <div class="section">
+      <h3>On Twitter</h3>
+      <p>You can follow company news and updates on @shinydev, and follow Dave on @daveverwer.</p>
+    </div>
+  </div>
+  <br style="clear:both" />        
 </div>
