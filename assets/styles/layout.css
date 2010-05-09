@@ -33,6 +33,14 @@ body.blog, body.blog-post {
     width: 100%;
 }
 
+.wrapper-upper {
+    background: #fff url(../backgrounds/body-revised.png) 50% bottom no-repeat;
+}
+
+.blog .wrapper-upper, .blog-post .wrapper-upper {
+    background: none;
+}
+
 .container {
     margin: 0 auto;
     padding: 0 30px;
@@ -594,10 +602,20 @@ form.license-key input#commit {
     font-weight: bold;
 }
 
-.blog-post ul.posts li {
+.blog ul.archive {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.blog-post ul.posts li, .blog ul.archive li {
     border-bottom: 1px solid #d8ebd5;
     margin: 0 0 5px 0;
     padding: 0 0 5px 0;
+}
+
+.blog ul.archive li span {
+    font-size: 12px;
 }
 
 /* @end */
