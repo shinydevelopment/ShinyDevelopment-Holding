@@ -413,6 +413,15 @@ body.blog, body.blog-post {
     font-weight: bold;
 }
 
+.subsection-booking {
+    background: #e7f3e5;
+    border: 1px solid #d8ebe5;
+    display: inline;
+    float: left;
+    margin-bottom: 20px;
+    padding: 15px 15px 5px 15px;
+}
+
 .footer ul {
     font-size: 1.1em;
     line-height: 1.8182em;
@@ -497,7 +506,7 @@ body.blog, body.blog-post {
     margin-bottom: 40px;
 }
 
-.section p.fancy-link-top, .content-upper .section p.fancy-link {
+.section p.fancy-link-top, .content-upper .section p.fancy-link, .section p.fancy-link-bottom {
     margin-bottom: 10px;
 }
 
