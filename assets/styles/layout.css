@@ -394,17 +394,23 @@ body.blog, body.blog-post {
     font-size: 1.4em;
     font-weight: bold;
     line-height: 1.4286em;
-    margin-bottom: 20px;
-}
-
-.section h4.tight {
-  margin-bottom: 5px;
+    margin-bottom: 5px;
 }
 
 .section p.excerpt {
     color: #333;
     font-size: 1.6em;
     line-height: 1.25em;
+}
+
+.section p.emphasis {
+    color: #333;
+    font-size: 1.6em;
+    line-height: 1.25em;
+    margin-left: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: bold;
 }
 
 .footer ul {
