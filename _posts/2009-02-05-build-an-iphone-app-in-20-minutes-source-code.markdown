@@ -10,6 +10,6 @@ Back at <a href="http://barcampleeds.com/">BarCamp Leeds</a> many months ago I g
 
 Anyway I never posted the source for it as I said I would many times and yesterday <a href="http://twitter.com/hereinthehive/status/1176245016">@hereinthehive asked for it</a>, so here it is.
 
-Bear in mind this is the result of a 20 minute coding demo primarily designed to demonstrate the absolute basics of a table view application to people who had never been exposed to Objective C or iPhone development so the structure of the application is intentionally simplified and even the default cell optimisation code has been removed to keep the example simple.
+Bear in mind this is the result of a 20 minute coding demo primarily designed to demonstrate the absolute basics of a table view application to people who had never been exposed to Objective-C or iPhone development so the structure of the application is intentionally simplified and even the default cell optimisation code has been removed to keep the example simple.
 
 With that said, have at it. <a href="http://shinydev.s3.amazonaws.com/blog-files/build-an-iphone-app-in-20-minutes.zip">Build an iPhone app in 20 minutes - Source Code</a> (This code is released under a MIT license).
