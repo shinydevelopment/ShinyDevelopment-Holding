@@ -404,12 +404,6 @@ body.blog, body.blog-post {
 }
 
 .section p.emphasis {
-    color: #333;
-    font-size: 1.6em;
-    line-height: 1.25em;
-    margin-left: 0;
-    padding-left: 15px;
-    padding-right: 15px;
     font-weight: bold;
 }
 
