@@ -397,6 +397,10 @@ body.blog, body.blog-post {
     margin-bottom: 20px;
 }
 
+.section h4.tight {
+  margin-bottom: 5px;
+}
+
 .section p.excerpt {
     color: #333;
     font-size: 1.6em;
