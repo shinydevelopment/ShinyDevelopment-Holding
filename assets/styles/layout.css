@@ -594,6 +594,12 @@ form.license-key input#commit {
     font-weight: bold;
 }
 
+.blog-post ul.posts li {
+    border-bottom: 1px solid #d8ebd5;
+    margin: 0 0 5px 0;
+    padding: 0 0 5px 0;
+}
+
 /* @end */
 
 
