@@ -6,11 +6,11 @@ excerpt: During the development of <a href="http://balloonsapp.com">Balloons!</a
 ---
 During the development of <a href="http://balloonsapp.com">Balloons!</a> I would tell people about the idea and they would occasionally come back with "But what about abuse? Isn't it going to be filled up with porn/spam/etc... within a few days?". We also got the similar concerns when reviews started appearing, in fact the first comment on the <a href="http://www.tuaw.com/2009/11/08/balloons-sending-out-a-mystery-message-on-your-iphone/">TUAW review</a> was:
 
-<blockquote>How long until porn ruins it?</blockquote>
+<blockquote><p>How long until porn ruins it?</p></blockquote>
 
 With the immediate follow up being:
 
-<blockquote>Or spam?</blockquote>
+<blockquote><p>Or spam?</p></blockquote>
 
 So, we are now one week in to being live on the app store and with over 11,000 balloons launched I thought I would give an update on what has happened on this subject. The good news is that so far it has not been the huge problem that people predicted. In total, about 1.2% of all balloons have been reported and we ended up popping about 0.5% of all balloons and virtually all of them have been spam rather than inappropriate content.
 
