@@ -168,6 +168,8 @@ body.blog, body.blog-post {
     top: 0;
 }
 
+
+
 .content-upper #screencast-speakapedia {
     position: absolute;
     right: 15px;
@@ -211,6 +213,25 @@ body.blog, body.blog-post {
   padding: 26px 25px 26px 74px;
   width: 355px;
   
+}
+
+
+.cssanimations .content-upper #screencast-speakapedia div#play-video {
+    background: #000 url(../backgrounds/play.png) 50% 50% no-repeat;
+    cursor: pointer;
+    display: inline;
+    float: left;
+    height: 349px;
+    position: absolute;
+    right: 0;
+    text-indent: -9999px;
+    top: 0;
+    width: 434px;
+    z-index: 20;
+}
+
+.no-cssanimations div #play-video {
+    display: none;
 }
 
 .content-upper div#googlemap {
@@ -688,7 +709,9 @@ form.license-key input#commit {
 
 /* @end */
 
-
+#video0fallback {
+    background: #000;
+}
 
 
 /* @group Self Clear Floats
