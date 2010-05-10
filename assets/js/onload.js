@@ -24,6 +24,7 @@ $(document).ready(function () {
     //activate the video
     $(function() {
         $('#play-video').click( function() {
+            $('#screencast-speakapedia video').css('right','0');
             $('#play-video').hide();
             video.play();
         });

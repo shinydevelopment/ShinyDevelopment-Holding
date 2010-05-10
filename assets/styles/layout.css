@@ -215,6 +215,10 @@ body.blog, body.blog-post, body.single-column {
   
 }
 
+.cssanimations .content-upper #screencast-speakapedia video {
+    position: absolute;
+    right: 9999px;
+}
 
 .cssanimations .content-upper #screencast-speakapedia div#play-video {
     background: #000 url(../backgrounds/play.png) 50% 50% no-repeat;
@@ -227,7 +231,6 @@ body.blog, body.blog-post, body.single-column {
     text-indent: -9999px;
     top: 0;
     width: 434px;
-    z-index: 20;
 }
 
 .no-cssanimations div #play-video {
