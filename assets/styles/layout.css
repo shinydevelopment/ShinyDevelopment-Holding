@@ -21,7 +21,7 @@ body {
     padding: 0;
 }
 
-body.blog, body.blog-post { 
+body.blog, body.blog-post, body.single-column { 
     background: #fff url(../backgrounds/body-blog.png) 50% bottom no-repeat;  
 	background-attachment: fixed;
 }
@@ -39,7 +39,7 @@ body.blog, body.blog-post {
     background: #fff url(../backgrounds/body-revised.png) 50% bottom no-repeat;
 }
 
-.blog .wrapper-upper, .blog-post .wrapper-upper {
+.blog .wrapper-upper, .blog-post .wrapper-upper, .single-column .wrapper-upper {
     background: none;
 }
 
