@@ -426,6 +426,11 @@ body.blog, body.blog-post {
     line-height: 1.25em;
 }
 
+.section .terms {
+    font-size: 10px;
+    padding: 0 10px 10px 10px;
+}
+
 .section p.emphasis {
     font-weight: bold;
 }
