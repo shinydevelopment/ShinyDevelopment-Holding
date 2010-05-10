@@ -63,13 +63,13 @@ function html5_video_replace(video, index) {
 
     /* play the video */
     flowplayer("video" + index + "fallback", {
-      src: FLOWPLAYER_URL,
+      src: FLOWPLAYER_URL, wmode: "transparent", 
       version: [9, 115]
     }, {
       clip: {
         url: video_url,
         autoPlay: video_autoplay,
-        autoBuffering: video_preload
+        autoBuffering: video_preload,
       },
       plugins: {
         controls: video_controls

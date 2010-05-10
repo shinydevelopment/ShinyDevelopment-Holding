@@ -21,9 +21,16 @@ $(document).ready(function () {
         });
     });
     
+    //activate the video
+    $(function() {
+        $('#play-video').click( function() {
+            $('#play-video').hide();
+            video.play();
+        });
+    });
+    
     
     // initialise Superfish 
-    $("ul.nav").superfish(); 
+    $("ul.nav").superfish();
     
-	
 });
