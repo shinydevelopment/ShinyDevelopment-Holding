@@ -81,7 +81,9 @@ body.blog, body.blog-post, body.single-column {
     list-style: none;
     margin: 55px 0 0 0;
     padding: 0;
+    position: relative;
     float: right;
+    z-index: 100;
 }
 
 .header ul ul {
@@ -92,6 +94,7 @@ body.blog, body.blog-post, body.single-column {
     font-size: 1.0em;
     line-height: 1.0em;
     margin-top: 0px;
+    position: absolute;
 }
 
 .header li {
