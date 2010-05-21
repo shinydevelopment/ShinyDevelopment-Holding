@@ -6,7 +6,7 @@ excerpt: In the two years since we did the last major update to our web site, Sh
 ---
 In the two years since we did the last major update to our web site, Shiny has changed quite significantly. We seriously expanded our development efforts on the iPhone (and now iPad) platforms and we have had some great success with apps like <a href="http://balloonsapp.com">Balloons!</a> which, with almost 200,000 balloons launched hopefully brought a little joy to the world by connecting people all over the world.
 
-We have also been expanding into delivering <a href="/training">iPhone OS training courses</a> over the last year. We initially licensed some training materials and partnered up with <a href="http://www.ntileeds.co.uk">nti Leeds</a> but we quickly moved to develop our own training materials and have been delivering the course ever since all across the north of England.
+We have also been expanding into delivering <a href="/training/>iPhone OS training courses</a> over the last year. We initially licensed some training materials and partnered up with <a href="http://www.ntileeds.co.uk">nti Leeds</a> but we quickly moved to develop our own training materials and have been delivering the course ever since all across the north of England.
   
 <h3>Manchester iPhone OS Development Training Courses</h3>
 
