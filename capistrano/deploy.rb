@@ -13,6 +13,7 @@ server "shiny-003.vm.brightbox.net", :app, :web
 
 after "deploy:update_code" do
   run "mv #{latest_release}/htaccess #{latest_release}/.htaccess"
+  run "mv #{latest_release}/_config_live.yml #{latest_release}/_config.yml"
   run "cd #{latest_release} && jekyll"
 end
 
