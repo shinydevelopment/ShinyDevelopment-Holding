@@ -14,6 +14,6 @@ The big news is that we are now scheduling and running our <a href="/iphone-trai
 
 <h3>Custom in-house iPhone OS Training</h3>
 
-We have also been delivering our training for private companies who are looking to train their team up to get started with iPhone development. We have offered this service for a little while and have trained up several teams in private companies but the web site has now been updated with full details of what you can expect if you book us to deliver custom <a href="/in-house-iphone-os-">in-house training</a>.
+We have also been delivering our training for private companies who are looking to train their team up to get started with iPhone development. We have offered this service for a little while and have trained up several teams in private companies but the web site has now been updated with full details of what you can expect if you book us to deliver custom <a href="/iphone-training/">in-house training</a>.
 
 Exciting times!
