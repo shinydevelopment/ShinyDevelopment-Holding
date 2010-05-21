@@ -2,7 +2,7 @@
 layout: post
 title: Announcing our iPhone OS Developer Training Courses
 author: @daveverwer
-excerpt: In the two years since we did the last major update to our web site, Shiny has changed quite significantly. The big news is that we are now scheduling and running our <a href="/public-iphone-os-training">own training courses</a> which go on sale today! We are starting out by running two courses in Manchester scheduled for August and October. We have special pricing for freelancers and also early bird discounts at the moment so if you have been wanting to learn how to develop for the iPhone and iPad, now might be the time to do it!
+excerpt: In the two years since we did the last major update to our web site, Shiny has changed quite significantly. The big news is that we are now scheduling and running our <a href="/iphone-training/">own training courses</a> which go on sale today! We are starting out by running two courses in Manchester scheduled for August and October. We have special pricing for freelancers and also early bird discounts at the moment so if you have been wanting to learn how to develop for the iPhone and iPad, now might be the time to do it!
 ---
 In the two years since we did the last major update to our web site, Shiny has changed quite significantly. We seriously expanded our development efforts on the iPhone (and now iPad) platforms and we have had some great success with apps like <a href="http://balloonsapp.com">Balloons!</a> which, with almost 200,000 balloons launched hopefully brought a little joy to the world by connecting people all over the world.
 
@@ -10,7 +10,7 @@ We have also been expanding into delivering <a href="/training">iPhone OS traini
   
 <h3>Manchester iPhone OS Development Training Courses</h3>
 
-The big news is that we are now scheduling and running our <a href="/public-iphone-os-training">own training courses</a> which go on sale today! We are starting out by running two courses in Manchester scheduled for August and October. We have special pricing for freelancers and also early bird discounts at the moment so if you have been wanting to learn how to develop for the iPhone and iPad, now might be the time to do it!
+The big news is that we are now scheduling and running our <a href="/iphone-training/">own training courses</a> which go on sale today! We are starting out by running two courses in Manchester scheduled for August and October. We have special pricing for freelancers and also early bird discounts at the moment so if you have been wanting to learn how to develop for the iPhone and iPad, now might be the time to do it!
 
 <h3>Custom in-house iPhone OS Training</h3>
 
