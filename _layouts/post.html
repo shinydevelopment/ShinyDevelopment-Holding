@@ -2,43 +2,27 @@
 {% include head.html %}
 
 <body class="blog-post">
-
 {% include header.html %}
-
-
-
 <div class="wrapper">
-    
-    <div class="container">
-    
+  <div class="container">
     <div class="section section-blog">
-        
-        <h2>{{ page.title }}</h2>
-        <p class="post-meta">by {{page.author}} &bull; {{ page.date | date_to_long_string }}</p>
-        
-        {{content}}
-        
-        <div class="page-navigation"> 
-                <div class="left"> 
-                {% if page.previous.url %} 
-                        <p><a href="{{page.previous.url}}" title="Previous Post: 
-        {{page.previous.title}}">&larr; {{page.previous.title}}</a></p>
-                {% endif %} 
-                </div> 
-                <div class="right"> 
-                {% if page.next.url %} 
-                        <p><a href="{{page.next.url}}" title="next Post: 
-        {{page.next.title}}">{{page.next.title}} &rarr; </a></p>
-                {% endif %} 
-                </div> 
-        </div>
-            
+      <h2>{{ page.title }}</h2>
+      <p class="post-meta">by {{page.author}} &bull; {{ page.date | date_to_long_string }}</p>
+      {{content}}
+      <div class="page-navigation"> 
+        <div class="left"> 
+          {% if page.previous.url %} 
+          <p><a href="{{page.previous.url}}" title="Previous Post: {{page.previous.title}}">&larr; {{page.previous.title}}</a></p>
+          {% endif %} 
+        </div> 
+        <div class="right"> 
+          {% if page.next.url %} 
+          <p><a href="{{page.next.url}}" title="Next Post: {{page.next.title}}">{{page.next.title}} &rarr; </a></p>
+          {% endif %} 
+        </div> 
+      </div>
     </div>
-    
     {% include sidebar.html %}
-
-    </div>
-
+  </div>
 </div>
-
 {% include footer.html %}
