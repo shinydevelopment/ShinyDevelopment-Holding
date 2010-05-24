@@ -6,7 +6,7 @@ RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
 RewriteRule ^(.*)$ http://%1/$1 [R=301]
 
 # Redirect old web pages
-Redirect 301 /interestingness http://shinydevelopment.com/explore-flickr/
+Redirect 301 /interestingness http://shinydevelopment.com/explore-flickr
 
 # Custom error
 ErrorDocument 404 /error.html
