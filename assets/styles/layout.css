@@ -496,6 +496,10 @@ body.blog, body.blog-post, body.single-column {
     background: url(../icons/charades-small.png) left 50% no-repeat;
 }
 
+.section ul.app-list li.explore-flickr {
+    background: url(../icons/explore-flickr-small.png) left 50% no-repeat;
+}
+
 .section ul.app-list li.balloons {
     background: url(../images/whats-hot.png) top left no-repeat;
     display: inline;
