@@ -93,8 +93,9 @@ body.blog, body.blog-post, body.single-column {
     float: left;
     font-size: 1.0em;
     line-height: 1.0em;
-    margin-top: 0px;
+    margin-top: -2px;
     position: absolute;
+    z-index: 100;
 }
 
 .header li {
