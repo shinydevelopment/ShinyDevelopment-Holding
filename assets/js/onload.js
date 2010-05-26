@@ -30,16 +30,7 @@ $(document).ready(function () {
         });
     });
     
-    
     // initialise Superfish 
     $("ul.nav").superfish();
-    
-    $('#nav_training, #nav_apps').mouseover(function(){
-       $('video').hide();
-    });
-    
-    $('#nav_training, #nav_apps').mouseout(function(){
-       $('video').show();
-    });
     
 });
