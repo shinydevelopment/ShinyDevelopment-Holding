@@ -1,11 +1,11 @@
 --- 
 layout: post
-title: Speaking at the &ldquo;iPad at the C.U.C.&rdquo; event
+title: Speaking at the &#8220;iPad at the C.U.C.&#8221; event
 author: @daveverwer
-excerpt: It is always a pleasure to be asked to speak at an event and I have recently been asked to get involved and do a short talk at the <a rel="nofollow" href="http://ipadliverpool.eventbrite.com/">&ldquo;iPad at the C.U.C.&rdquo;</a> event being held in Liverpool this week.
+excerpt: It is always a pleasure to be asked to speak at an event and I have recently been asked to get involved and do a short talk at the <a rel="nofollow" href="http://ipadliverpool.eventbrite.com/">&#8220;iPad at the C.U.C.&#8221;</a> event being held in Liverpool this week.
 ---
 
-It is always a pleasure to be asked to speak at an event and I have recently been asked to get involved and do a short talk at the <a rel="nofollow" href="http://ipadliverpool.eventbrite.com/">&ldquo;iPad at the C.U.C.&rdquo;</a> event being held in Liverpool this week.
+It is always a pleasure to be asked to speak at an event and I have recently been asked to get involved and do a short talk at the <a rel="nofollow" href="http://ipadliverpool.eventbrite.com/">&#8220;iPad at the C.U.C.&#8221;</a> event being held in Liverpool this week.
 
 I am going to be speaking on iPad application design so here is a sneak peek of the first slide in my presentation, and the theme of the talk:
 
