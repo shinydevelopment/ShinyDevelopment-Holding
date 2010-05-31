@@ -30,6 +30,12 @@ $(document).ready(function () {
         });
     });
     
+    //$("a#video-link").fancybox();
+    Shadowbox.init({
+        autoplayMovies: true,
+        overlayOpacity: "0.9" 
+    });
+    
     // initialise Superfish 
     $("ul.nav").superfish();
     
