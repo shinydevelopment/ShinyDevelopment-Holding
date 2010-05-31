@@ -20,7 +20,11 @@ layout: nil
    <link href="http://shinydevelopment.com{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
    <id>http://shinydevelopment.com{{ post.id }}</id>
-   <content type="html">{{ post.content | xml_escape }}</content>
+   <content type="html">
+     {{ post.excerpt | xml_escape }}
+     &lt;br /&gt;&lt;br /&gt;
+     &lt;a href=&quot;{{post.url}}&quot;&gt;Read the rest of this article&hellip;&lt;/a&gt;
+   </content>
  </entry>
  {% endfor %}
  
