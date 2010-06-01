@@ -221,7 +221,7 @@ body.blog, body.blog-post, body.single-column {
     width: 200px;
 }
 
-.content-upper .screencast-landscape .the-rag {
+.content-upper .screencast-portrait .the-rag {
     background: url(../backgrounds/the-rag.png) top left no-repeat;
 }
 
