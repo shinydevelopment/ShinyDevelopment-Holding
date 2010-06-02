@@ -33,7 +33,7 @@ $(document).ready(function () {
     //$("a#video-link").fancybox();
     Shadowbox.init({
         autoplayMovies: true,
-        overlayOpacity: "0.9" 
+        overlayOpacity: "0.6" 
     });
     
     // initialise Superfish 
