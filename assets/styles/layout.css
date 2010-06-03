@@ -93,8 +93,9 @@ body.blog, body.blog-post, body.single-column {
     float: left;
     font-size: 1.0em;
     line-height: 1.0em;
-    margin-top: 0px;
+    margin-top: -2px;
     position: absolute;
+    z-index: 100;
 }
 
 .header li {
@@ -159,25 +160,9 @@ body.blog, body.blog-post, body.single-column {
     top: 0;
 }
 
-.content-upper #screencast {
-    position: absolute;
-    right: -50px;
-    top: 0;
-}
-
-.content-upper #screencast-portrait {
-    position: absolute;
-    right: 60px;
-    top: 0;
-}
 
 
 
-.content-upper #screencast-speakapedia {
-    position: absolute;
-    right: 15px;
-    top: -20px;
-}
 
 .content-upper .screencast-portrait-container {
     display: inline;
@@ -187,24 +172,50 @@ body.blog, body.blog-post, body.single-column {
     top: 0px;
 }
 
+.content-upper .screencast-portrait {
+    background: url(../images/iphone-frame.png) top left no-repeat;
+    color: #fff;
+    display: inline;
+    float: left;
+    height: 386px;
+    margin-right: 48px;
+    padding: 74px 26px 25px 26px;
+    width: 200px;
+}
+
+.content-upper .screencast-portrait .play-icon {
+    background: url(../backgrounds/play-icon.png) 50% 50% no-repeat;
+    cursor: pointer;
+    display: inline;
+    float: left;
+    height: 300px;
+    outline: none;
+    text-indent: -9999px;
+    width: 200px;
+}
+
+.content-upper .screencast-portrait .screen {
+    display: inline;
+    float: left;
+    height: 300px;
+    width: 200px;
+}
+
+.content-upper .screencast-portrait .the-rag {
+    background: url(../backgrounds/the-rag.png) top left no-repeat;
+}
+
+
+
+
+
+
 .content-upper .screencast-landscape-container {
     display: inline;
     float: right;
     position: absolute;
     right: 10px;
     top: 50px;
-}
-
-.content-upper .screencast-portrait {
-  background: url(../images/iphone-frame.png) top left no-repeat;
-  color: #fff;
-  display: inline;
-  float: left;
-  height: 386px;
-  margin-right: 48px;
-  padding: 74px 26px 25px 26px;
-  width: 200px;
-  
 }
 
 .content-upper .screencast-landscape {
@@ -218,27 +229,127 @@ body.blog, body.blog-post, body.single-column {
   
 }
 
-.cssanimations .content-upper #screencast-speakapedia video {
-    position: absolute;
-    right: 9999px;
-}
-
-.cssanimations .content-upper #screencast-speakapedia div#play-video {
-    background: #000 url(../backgrounds/play.png) 50% 50% no-repeat;
+.content-upper .screencast-landscape .play-icon {
+    background: url(../backgrounds/play-icon.png) 50% 50% no-repeat;
     cursor: pointer;
     display: inline;
     float: left;
-    height: 349px;
-    position: absolute;
-    right: 0;
+    height: 200px;
+    outline: none;
     text-indent: -9999px;
-    top: 0;
-    width: 434px;
+    width: 300px;
 }
 
-.no-cssanimations div #play-video {
-    display: none;
+.content-upper .screencast-landscape .screen {
+    display: inline;
+    float: left;
+    height: 200px;
+    width: 300px;
 }
+
+.content-upper .screencast-landscape .charades {
+    background: url(../backgrounds/charades.png) top left no-repeat;
+}
+
+
+
+
+
+.content-upper .screencast-ipad-container {
+    display: inline;
+    float: right;
+    position: absolute;
+    right: 15px;
+    top: -12px;
+}
+
+.content-upper .screencast-ipad {
+  background: url(../images/ipad-frame.png) top left no-repeat;
+  display: inline;
+  float: left;
+  height: 400px;
+  width: 450px;
+  
+}
+
+.content-upper .screencast-ipad .play-icon {
+    background: url(../backgrounds/play-icon.png) 50% 50% no-repeat;
+    cursor: pointer;
+    display: inline;
+    float: left;
+    height: 274px;
+    outline: none;
+    text-indent: -9999px;
+    width: 365px;
+}
+
+.content-upper .screencast-ipad .screen {
+    display: inline;
+    float: left;
+    margin: 40px 0 0 44px;
+    height: 274px;
+    width: 365px;
+}
+
+.content-upper .screencast-ipad .explore-flickr {
+    background: url(../backgrounds/explore-flickr.jpg) top left no-repeat;
+}
+
+
+.content-upper .play-icon:hover {
+    background: url(../backgrounds/play-icon-hover.png) 50% 50% no-repeat;
+}
+
+
+
+
+
+
+.content-upper .screencast-mac-container {
+    display: inline;
+    float: right;
+    position: absolute;
+    right: 0px;
+    top: 15px;
+}
+
+.content-upper .screencast-mac {
+  display: inline;
+  float: left;
+  height: 329px;
+  padding: 0;
+  width: 450px;
+  
+}
+
+.content-upper .screencast-mac .play-icon {
+    background: url(../backgrounds/play-icon.png) 50% 50% no-repeat;
+    cursor: pointer;
+    display: inline;
+    float: left;
+    height: 329px;
+    outline: none;
+    text-indent: -9999px;
+    width: 450px;
+}
+
+.content-upper .screencast-mac .screen {
+    display: inline;
+    float: left;
+    height: 329px;
+    width: 450px;
+}
+
+.content-upper .screencast-mac .speakapedia {
+    background: url(../images/speakapedia.png) top left no-repeat;
+}
+
+
+
+
+
+
+
 
 .content-upper div#googlemap {
     border: 5px solid #f4f4f4;

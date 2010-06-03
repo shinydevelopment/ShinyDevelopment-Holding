@@ -17,4 +17,5 @@ license/re-use information
 @import url(superfish.css);
 @import url(layout.css);
 @import url(progressive.css);
+@import url(../shadowbox-3.0.3/shadowbox.css);
 /* end import/hide */
