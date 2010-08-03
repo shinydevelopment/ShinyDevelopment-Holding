@@ -2,6 +2,7 @@ auto: false
 server: false
 destination: ./_site
 markdown: rdiscount
+pygments: true
 lsi: true
 exclude: templates, capfile, capistrano
 url: http://shinydevelopment.com

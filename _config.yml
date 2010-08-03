@@ -2,6 +2,7 @@ auto: true
 server: true
 destination: ./_site
 markdown: rdiscount
+pygments: true
 lsi: true
 exclude: templates, capfile, capistrano
 url: http://localhost:4000

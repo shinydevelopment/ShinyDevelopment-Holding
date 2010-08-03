@@ -35,6 +35,10 @@ body.blog, body.blog-post, body.single-column {
 }
 */
 
+code {
+    font-size: 120%;
+}
+
 .wrapper-upper {
     background: #fff url(../backgrounds/body-revised.png) 50% bottom no-repeat;
 }
