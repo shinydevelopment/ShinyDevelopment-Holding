@@ -571,6 +571,15 @@ code {
     padding: 15px 15px 5px 15px;
 }
 
+.subsection-booking .association {
+    width: 190px;
+    margin: 0 auto;
+}
+
+.subsection-booking .association img {
+    padding: 5px 10px;
+}
+
 .footer ul {
     font-size: 1.1em;
     line-height: 1.8182em;
