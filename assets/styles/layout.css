@@ -295,19 +295,9 @@ code {
     width: 365px;
 }
 
-.content-upper .screencast-ipad .explore-flickr {
-    background: url(../backgrounds/explore-flickr.jpg) top left no-repeat;
-}
-
-
 .content-upper .play-icon:hover {
     background: url(../backgrounds/play-icon-hover.png) 50% 50% no-repeat;
 }
-
-
-
-
-
 
 .content-upper .screencast-mac-container {
     display: inline;
@@ -323,7 +313,6 @@ code {
   height: 329px;
   padding: 0;
   width: 450px;
-  
 }
 
 .content-upper .screencast-mac .play-icon {
