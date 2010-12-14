@@ -38,4 +38,6 @@ If I could sum up this post in two bullets, this is what I want you to take away
 
 When thinking about this backup strategy I kept thinking of the old saying *"Backup always works, it is the restore that fails."* and I tried to make use of services that use "restore" as an integral part of the day to day use of the service. There was at least one company affected by the fire here that thought they had backups but when they came to restore them, it failed and they lost their data. With something like Dropbox, I can quickly and constantly see if the files are not transferring properly as they will not be available on my home machine or my laptop.
 
+The most distressing part of the fire for me was losing the office that we have been a part of for 4 years now. Not so much the bricks and mortar, although it was a lovely building but the people who worked there who are now either scattered across other offices in Chester or sadly out of work because of it. Material possessions mean very little compared to the community that was lost in that fire. We were very lucky that we did not lose anything really important in the fire and my sympathy goes out to all the businesses that were not as lucky as us.
+
 If you would like to comment on this post, please <a href="http://twitter.com/home?status=%40daveverwer">reply to @daveverwer</a> on Twitter.
