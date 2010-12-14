@@ -25,7 +25,7 @@ Gmail and FreeAgent are slightly vulnerable here as I do not have a local backup
 
 <img src="http://shinydev.s3.amazonaws.com/blog-files/backups-aftermath-of-fire.jpg" />
 
-We did however lose a few bits of non-essential data. All of my user settings in the ~/Library directory were only stored on our time capsule backup, as was an old backup DMG of my old laptop (although after not touching it for over 12 months, it is unlikely to have had anything important on it). These final pieces of data could have been saved by using one of the many online backup services like <a href="http://www.backblaze.com/">Backblaze</a> or <a href="http://mozy.co.uk/">Mozy</a>.
+We did however lose a few bits of non-essential data. All of my user settings in the ~/Library directory were only stored on our time capsule backup, as was an old backup DMG of my old laptop (although after not touching it for over 12 months, it is unlikely to have had anything important on it). These final pieces of data could have been saved by using one of the many online "full system" backup services like <a href="http://www.backblaze.com/">Backblaze</a> or <a href="http://mozy.co.uk/">Mozy</a>.
 
 If I could sum up this post in two bullets, this is what I want you to take away:
 
