@@ -9,10 +9,10 @@ permalink: /contact/
     <h2>Contact Us.</h2>
     <p class="excerpt">Shiny Development is based in the UK within the beautiful city of Chester.</p>
     <p class="excerpt">Shiny Development <abbr title="Limited">Ltd</abbr><br />
-      Unit S1C Chester Enterprise Centre,<br />
-      Hoole Bridge,<br />
-      Chester,<br />
-      CH2 3NE<br />
+      Unit CLP007<br />
+      24 Liverpool Road<br />
+      Chester<br />
+      CH2 1AE<br />
       United Kingdom</p>
 
     <div id="googlemap"></div>
@@ -28,15 +28,15 @@ permalink: /contact/
         return marker; 			      
       }
       var map = new google.maps.Map2(document.getElementById("googlemap")); 			
-      var start = new google.maps.LatLng(53.197784, -2.88); 			
-      map.setCenter(start, 15); 			 						
-      map.addControl(new google.maps.SmallMapControl()); 			
-      new google.maps.KeyboardHandler(map); 			
-      map.enableContinuousZoom(); 			
-      map.enableDoubleClickZoom(); 
-      var point = new google.maps.LatLng(53.197784, -2.88); 			
-      var marker = createMarker(point,'N3 Design') 			
-      map.addOverlay(marker);			 			
+      var start = new google.maps.LatLng(53.1987, -2.8944);
+      map.setCenter(start, 15);
+      map.addControl(new google.maps.SmallMapControl());
+      new google.maps.KeyboardHandler(map);
+      map.enableContinuousZoom();
+      map.enableDoubleClickZoom();
+      var point = new google.maps.LatLng(53.1987, -2.8944);
+      var marker = createMarker(point,'Shiny Development Ltd.');
+      map.addOverlay(marker);
     } 		  
     google.setOnLoadCallback(initialize);
     -->
