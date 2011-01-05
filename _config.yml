@@ -4,6 +4,6 @@ destination: ./_site
 markdown: rdiscount
 pygments: true
 lsi: true
-exclude: templates, capfile, capistrano
+exclude: templates, capfile, capistrano, _masters
 url: http://localhost:4000
 permalink: /blog/:title
