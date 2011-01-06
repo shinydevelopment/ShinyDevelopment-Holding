@@ -901,3 +901,60 @@ form.license-key input#commit {
     background: rgba(0,0,0,0.6) url(../images/button.png) 50% right repeat-x;
 }
 
+.wufoo {
+    display: inline-block;
+    width: 565px;
+}
+
+.wufoo .info {
+    display: none;
+}
+
+#container, html.embed {
+    background-color: transparent;
+}
+
+.wufoo li {
+    display: inline;
+    float: left;
+    margin: 0 0 10px 0;
+    padding: 0;
+    width: 100%;
+}
+
+.wufoo textarea.textarea, .wufoo input.text {
+    border: 1px solid #ccc !important;
+    border-top: 0;
+    padding: 7px 4px;
+    width: 500px;
+    outline: none;
+    border-radius:3px;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    transition: all 0.25s ease-in-out;
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+}
+
+.wufoo input.fn, .wufoo input.ln {
+    width: 240px;
+}
+
+
+.wufoo textarea:focus, .wufoo input:focus {
+    background: #fff;
+    border: 1px solid #88b73e !important;
+    box-shadow: 0 0 5px rgba(136, 183, 62, 0.75);
+    -webkit-box-shadow: 0 0 5px rgba(136, 183, 62, 0.75); 
+    -moz-box-shadow: 0 0 5px rgba(136, 183, 62, 0.75); 
+}
+
+.wufoo li.focused {
+    background: none;
+}
+
+
+
+.wufoo li.focused {
+    background-color: none;
+}
