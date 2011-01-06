@@ -144,6 +144,14 @@ code {
     top: 0;
 }
 
+.content-upper .section-wide {
+    display: inline;
+    float: left;
+    margin: 0 0 0 15px;
+    padding: 0;
+    width: 900px;
+}
+
 
 
 
@@ -918,7 +926,7 @@ form.license-key input#commit {
     display: inline;
     float: left;
     margin: 0 0 10px 0;
-    padding: 0;
+    padding: 0 0 5px 0;
     width: 100%;
 }
 
@@ -934,6 +942,10 @@ form.license-key input#commit {
     transition: all 0.25s ease-in-out;
     -webkit-transition: all 0.25s ease-in-out;
     -moz-transition: all 0.25s ease-in-out;
+}
+
+.wufoo select {
+    width: 300px;
 }
 
 .wufoo input.fn, .wufoo input.ln {
