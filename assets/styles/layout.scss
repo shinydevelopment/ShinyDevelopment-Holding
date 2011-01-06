@@ -429,6 +429,16 @@ code {
     width: 405px;
 }
 
+.content-lower .section-content-highlight {
+    background: lighten($greenbg, 16%);
+    display: inline;
+    float: left;
+    margin: 0;
+    padding: 20px;
+    width: 500px;
+    @include medradius;
+}
+
 .content-lower .section-wide, .content-lower-alt .section-wide{
     clear: both;
     display: inline;
