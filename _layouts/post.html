@@ -8,7 +8,13 @@
     <div class="section section-blog">
       <h2>{{ page.title }}</h2>
       <p class="post-meta">by {{page.author}} &bull; {{ page.date | date_to_long_string }}</p>
+      
+      {% include share.html %}
+        
       {{content}}
+      
+      {% include share.html %}
+      
       <div class="page-navigation"> 
         <div class="left"> 
           {% if page.previous.url %} 

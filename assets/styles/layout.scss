@@ -429,6 +429,16 @@ code {
     width: 405px;
 }
 
+.content-lower .section-content-highlight {
+    background: lighten($greenbg, 16%);
+    display: inline;
+    float: left;
+    margin: 0;
+    padding: 20px;
+    width: 500px;
+    @include medradius;
+}
+
 .content-lower .section-wide, .content-lower-alt .section-wide{
     clear: both;
     display: inline;
@@ -741,6 +751,21 @@ form.license-key input#commit {
 
 .section-blog p.post-meta {
     font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+.section-blog ul.post-share {
+    clear: both;
+    display: inline;
+    float: left;
+    margin: 5px 0 10px 0;
+    width: 100%;
+}
+
+.section-blog ul.post-share li {
+    display: inline;
+    float: left;
+    margin-right: 10px;
 }
 
 .section-blog .page-navigation {
@@ -783,6 +808,22 @@ form.license-key input#commit {
     font-size: 1.8em;
     font-weight: bold;
     line-height: 1.111em;
+}
+
+.aside .callout-box {
+    background: #fff;
+    border: 1px solid #ccc;
+    width: 218px;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.aside .callout-text {
+    font-size: 11px;
+    width: 200px;
+    margin: 5px 0 20px 0;
+    padding: 0 10px;
+    text-align: center;
 }
 
 .aside .callout {
