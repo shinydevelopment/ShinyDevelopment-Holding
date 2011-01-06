@@ -751,6 +751,21 @@ form.license-key input#commit {
 
 .section-blog p.post-meta {
     font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+.section-blog ul.post-share {
+    clear: both;
+    display: inline;
+    float: left;
+    margin: 5px 0 10px 0;
+    width: 100%;
+}
+
+.section-blog ul.post-share li {
+    display: inline;
+    float: left;
+    margin-right: 10px;
 }
 
 .section-blog .page-navigation {

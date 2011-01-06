@@ -8,7 +8,21 @@
     <div class="section section-blog">
       <h2>{{ page.title }}</h2>
       <p class="post-meta">by {{page.author}} &bull; {{ page.date | date_to_long_string }}</p>
+      
+      <ul class="post-share">
+            
+            <li><a href="http://twitter.com/share" class="twitter-share-button" data-count="none" data-via="shinydev" data-text="" data-url="http://shinydevelopment.com{{ page.url }}">Tweet</a></li>
+            
+            <li><a href="http://reddit.com/submit" onclick="window.location = 'http://reddit.com/submit?url=' + encodeURIComponent(window.location); return false"> <img src="http://reddit.com/static/spreddit5.gif" alt="submit to reddit" border="0" /> </a></li>
+            
+            <li><script src="http://www.stumbleupon.com/hostedbadge.php?s=4"></script></li>
+            
+      </ul>
+      
+      <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+        
       {{content}}
+      
       <div class="page-navigation"> 
         <div class="left"> 
           {% if page.previous.url %} 
