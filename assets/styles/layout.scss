@@ -810,6 +810,22 @@ form.license-key input#commit {
     line-height: 1.111em;
 }
 
+.aside .callout-box {
+    background: #fff;
+    border: 1px solid #ccc;
+    width: 218px;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.aside .callout-text {
+    font-size: 11px;
+    width: 200px;
+    margin: 5px 0 20px 0;
+    padding: 0 10px;
+    text-align: center;
+}
+
 .aside .callout {
     background: url(../backgrounds/pattern.png) top left repeat;
     border: 1px solid #d8ebd5;
