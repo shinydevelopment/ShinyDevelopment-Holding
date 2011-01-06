@@ -1,5 +1,25 @@
 ---
 ---
+$baseradius: 6px;
+$greenbg: rgb(178,220,178);
+
+@mixin smlradius {
+    -moz-border-radius: $baseradius;
+    -webkit-border-radius: $baseradius;
+    border-radius: $baseradius;
+}
+
+@mixin medradius {
+    -moz-border-radius: $baseradius * 2;
+    -webkit-border-radius: $baseradius * 2;
+    border-radius: $baseradius * 2;
+}
+
+@mixin largeradius {
+    -moz-border-radius: $baseradius * 3;
+    -webkit-border-radius: $baseradius * 3;
+    border-radius: $baseradius * 3;
+}
 
 /* @group Page Structure
 --------------------------------------------- */
@@ -396,6 +416,19 @@ code {
     width: 565px;
 }
 
+.content-lower .section-home {
+    width: 375px;
+}
+
+.content-lower .section-blog {
+    background: lighten($greenbg, 16%);
+    display: inline;
+    float: left;
+    margin: 135px 20px 0 25px;
+    padding: 20px;
+    width: 405px;
+}
+
 .content-lower .section-wide, .content-lower-alt .section-wide{
     clear: both;
     display: inline;
@@ -416,7 +449,7 @@ code {
     border-bottom: 0;
 }
 
-.content-lower .section-lower, .content-lower-alt .section-app-lower {
+.content-lower .section-lower, .content-lower .section-lower-wide, .content-lower-alt .section-app-lower {
     padding-top: 150px;
 }
 
@@ -683,6 +716,29 @@ form.license-key input#commit {
     width: 620px;
 }
 
+.section-blog-home,
+.section-blog-home .article {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    width: 395px;
+}
+
+.section-blog-home {
+    @include medradius;
+}
+
+.section-blog-home ul.archive {
+    list-style: none;
+    margin: 0;
+}
+
+.section-blog-home ul.archive li {
+    display: inline;
+    float: left;
+    margin: 0;
+}
+
 .section-blog p.post-meta {
     font-size: 1.2em;
 }
@@ -838,29 +894,19 @@ form.license-key input#commit {
 
 /* css 3 specific rules */
 
-.header li a, #googlemap {
-    -khtml-border-radius: 6px;
-    -moz-border-radius: 6px;
-    -webkit-border-radius: 6px;
-    border-radius: 6px;
-}
-
+.header li a,
+#googlemap,
 .header li ul {
-    -khtml-border-radius: 6px;
-    -moz-border-radius: 6px;
-    -webkit-border-radius: 6px;
-    border-radius: 6px;
+    @include smlradius;
 }
 
 .header li li a {
-    -khtml-border-radius: 0px;
     -moz-border-radius: 0px;
     -webkit-border-radius: 0px;
     border-radius: 0px;
 }
 
 .header li li.top a, .header li li.top a:hover {
-    -khtml-border-radius: 0px;
     -moz-border-radius: 0px;
     -webkit-border-radius: 0px;
     border-radius: 0px;
@@ -873,7 +919,6 @@ form.license-key input#commit {
 }
 
 .header li li.bottom a, .header li li.bottom a:hover {
-    -khtml-border-radius: 0px;
     -moz-border-radius: 0px;
     -webkit-border-radius: 0px;
     border-radius: 0px;
@@ -887,10 +932,7 @@ form.license-key input#commit {
 
 
 .section p.fancy-link a {
-    -khtml-border-radius: 18px;
-    -moz-border-radius: 18px;
-    -webkit-border-radius: 18px;
-    border-radius: 18px;
+    @include largeradius;
 }
 
 

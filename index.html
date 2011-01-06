@@ -18,13 +18,37 @@ description: Shiny Development specialise in creating compelling and innovative 
 
 <div class="wrapper pattern">
   <div class="container content-lower">
-    <div class="section">
+    <div class="section section-home">
       <h3><a href="/training/">iPhone OS Training</a></h3>
       <p class="emphasis">We can teach you how to turn your app idea into reality!</p>
       <p>Our intensive iPhone and iPad training courses quickly bring you or your team up to speed creating apps for the iPhone or iPad. No experience of the iPhone SDK or Objective-C required!</p>
       <p>Learn how to set up your project, all about the Objective-C languages, how to use Xcode and Interface Builder and finally, how to ship your software to Apple for inclusion on the iTunes app store.</p>
       <p>We provide a range of <a href="/iphone-training/">scheduled courses</a> throughout the UK, or we can provide <a href="/in-house-iphone-training/">in-house training</a> specifically tailored to your organisation&rsquo;s requirements.</p>
       <p class="fancy-link"><a href="/training/">Read More</a></p>
+    </div>
+
+    <div class="section section-blog section-blog-home">
+    
+        {% for post in site.posts limit:1 %}
+        <div class="article">
+
+        <h3><a href="{{ post.url }}">Latest Blog Post: {{ post.title }}</a></h3>
+        <p class="post-meta">by {{post.author}} &bull; {{ post.date | date_to_long_string }}</p>
+
+        <p>{{ post.excerpt }}<br /><a href="{{ post.url }}">Continue Reading...</a></p>
+
+        </div>
+        {% endfor %}
+        
+        
+        <h3>Older Posts</h3>
+
+        <ul class="archive">
+        {% for post in site.posts offset:1 limit:3 %}
+        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+        {% endfor %}
+        </ul>
+    
     </div>
 
 <!--
