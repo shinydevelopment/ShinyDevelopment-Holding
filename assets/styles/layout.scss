@@ -31,8 +31,8 @@ body {
 }
 
 body.blog, body.blog-post, body.single-column { 
-    background: #fff url(../backgrounds/body-blog.png) 50% bottom no-repeat;  
-	background-attachment: fixed;
+    background: #fff;
+  	background-attachment: fixed;
 }
 
 code {
@@ -40,7 +40,7 @@ code {
 }
 
 .wrapper-upper {
-    background: #fff url(../backgrounds/body-revised.png) 50% bottom no-repeat;
+    background: #fff;
 }
 
 .blog .wrapper-upper, .blog-post .wrapper-upper, .single-column .wrapper-upper {
@@ -345,13 +345,6 @@ code {
     background: url(../images/speakapedia.png) top left no-repeat;
 }
 
-
-
-
-
-
-
-
 .content-upper div#googlemap {
     border: 5px solid #f4f4f4;
     position: absolute;
@@ -569,7 +562,7 @@ code {
 
 .section p.excerpt {
     color: #333;
-    font-size: 1.6em;
+    font-size: 1.9em;
     line-height: 1.25em;
 }
 

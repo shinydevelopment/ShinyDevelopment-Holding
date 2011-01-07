@@ -7,10 +7,11 @@ description: Shiny Development specialise in creating compelling and innovative 
 <div class="container content-upper">
   <div class="section ">
     <h2>The iPhone &amp; iPad Experts.</h2>
-    <blockquote><p class="excerpt">&ldquo;Every once in a while a revolutionary product comes along that changes everything. It&rsquo;s very fortunate if you can work on just one of these in your career... Apple&rsquo;s been very fortunate in that it&rsquo;s introduced a few of these.&rdquo;<br />
+    <!-- <blockquote><p class="excerpt">&ldquo;Every once in a while a revolutionary product comes along that changes everything. It&rsquo;s very fortunate if you can work on just one of these in your career... Apple&rsquo;s been very fortunate in that it&rsquo;s introduced a few of these.&rdquo;<br />
       <strong>Steve Jobs</strong>
-    </p></blockquote>
-    <p class="excerpt">At Shiny we specialise in creating compelling and innovative iPhone and iPad apps. We can also help you to turn your ideas into fully functioning apps for these groundbreaking devices.</p>
+    </p></blockquote> -->
+    <p class="excerpt">We specialise in training you to create compelling and innovative iOS apps for the iPhone, iPad and iPod Touch.</p>
+    <p class="excerpt">Learn from our real world experience of designing, building and marketing successful apps for these revolutionary platforms.</p>
     </div>
     <img src="/assets/images/ipad-iphone.png" width="492" height="480" class="display-img" />
   </div>
@@ -20,64 +21,23 @@ description: Shiny Development specialise in creating compelling and innovative 
   <div class="container content-lower">
     <div class="section section-home">
       <h3><a href="/training/">iPhone OS Training</a></h3>
-      <p class="emphasis">We can teach you how to turn your app idea into reality!</p>
-      <p>Our intensive iPhone and iPad training courses quickly bring you or your team up to speed creating apps for the iPhone or iPad. No experience of the iPhone SDK or Objective-C required!</p>
-      <p>Learn how to set up your project, all about the Objective-C languages, how to use Xcode and Interface Builder and finally, how to ship your software to Apple for inclusion on the iTunes app store.</p>
+      <p>We can kick start your iOS development plans and teach you how to turn your app idea into a reality! Our intensive iOS training courses will quickly bring you or your team up to speed designing and building apps.</p>
       <p>We provide a range of <a href="/iphone-training/">scheduled courses</a> throughout the UK, or we can provide <a href="/in-house-iphone-training/">in-house training</a> specifically tailored to your organisation&rsquo;s requirements.</p>
-      <p class="fancy-link"><a href="/training/">Read More</a></p>
+      <p class="fancy-link"><a href="/training/">Learn more about iOS Training</a></p>
     </div>
-
     <div class="section section-blog section-blog-home">
-    
-        {% for post in site.posts limit:1 %}
-        <div class="article">
-
-        <h3><a href="{{ post.url }}">Latest Blog Post: {{ post.title }}</a></h3>
-        <p class="post-meta">by {{post.author}} &bull; {{ post.date | date_to_long_string }}</p>
-
+      {% for post in site.posts limit:1 %}
+      <div class="article">
+        <h3>Latest Blog Post: <a href="{{ post.url }}">{{ post.title }}</a></h3>
         <p>{{ post.excerpt }}<br /><a href="{{ post.url }}">Continue Reading...</a></p>
-
-        </div>
-        {% endfor %}
-        
-        
-        <h3>Older Posts</h3>
-
-        <ul class="archive">
+      </div>
+      {% endfor %}
+      <h3>Older Posts</h3>
+      <ul class="archive">
         {% for post in site.posts offset:1 limit:3 %}
         <li><a href="{{ post.url }}">{{ post.title }}</a></li>
         {% endfor %}
-        </ul>
-    
-    </div>
-
-<!--
-    <div class="section section-lower">
-      <h3><a href="/consultancy/">iPhone OS Consultancy</a></h3>
-      <p class="emphasis">Why not benefit from our long experience as app developers?</p>
-      <p>Since the day that the iPhone SDK was available, Shiny has been developing innovative apps in a wide range of fields, building up invaluable knowledge on how to design, develop and market apps.</p>
-      <p>From the start of your project to its completion we can provide day by day consultancy and in depth support, keeping your app development on track and on target.</p>
-      <p class="fancy-link"><a href="/consultancy/">Read More</a></p>
-    </div>
-
-    <div class="section section-lower">
-      <h3><a href="/our-apps/">Our Apps</a></h3>
-      <p>You should check out our apps for Mac OS and the iPhone too!</p>
-      <h4>Featured App</h4>
-      <ul class="app-list">
-        <li class="balloons"><strong><a href="http://balloonsapp.com">Balloons!</a></strong> (iPhone)</li>
       </ul>
-      <h4>Other Apps</h4>
-      <ul class="app-list">
-        <li class="explore-flickr"><a href="http://exploreflickr.com">Explore Flickr</a> (iPad &amp; iPhone)</li>
-        <li class="charades"><a href="/charades/">Charades</a> (iPhone)</li>
-        <li class="speakapedia"><a href="/speakapedia/">Speakapedia</a> (OS X)</li>
-        <li class="the-rag"><a href="/the-rag/">The RAG</a> (iPhone)</li>
-      </ul>
-      <p class="fancy-link"><a href="/our-apps/">View Our Apps</a></p>
     </div>
-  </div>
--->
-
   <br style="clear:both" />
 </div>
