@@ -416,14 +416,12 @@ div#googlemap {
 }
 
 .section-home .app-bar {
-    background: #000;
     display: inline;
     float: left;
     list-style: none;
     margin: 0;
-    padding: 10px 0 10px 10px;
+    padding: 0;
     width: 250px;
-    @include medradius
 }
 
 .section-home .app-bar li {
