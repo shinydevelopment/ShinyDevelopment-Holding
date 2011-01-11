@@ -1,20 +1,29 @@
-/*============================================================
+---
+---
+$baseradius: 6px;
+$greenbg: rgb(178,220,178);
 
-Author: Simon Young
-http://simonyoung.net
-http://twitter.com/simon180
+@mixin smlradius {
+    -moz-border-radius: $baseradius;
+    -webkit-border-radius: $baseradius;
+    border-radius: $baseradius;
+}
 
-LAYOUT.CSS 
-Main CSS layout styles
+@mixin medradius {
+    -moz-border-radius: $baseradius * 2;
+    -webkit-border-radius: $baseradius * 2;
+    border-radius: $baseradius * 2;
+}
 
-(c) Simon Young, 2010. All rights reserved.
-
-============================================================*/
+@mixin largeradius {
+    -moz-border-radius: $baseradius * 3;
+    -webkit-border-radius: $baseradius * 3;
+    border-radius: $baseradius * 3;
+}
 
 /* @group Page Structure
 --------------------------------------------- */
-body { 
-    /*background: #fff url(../backgrounds/body.png) 50% top no-repeat;*/
+body {
     color: #000;
     font-family: "Lucida Grande", Helvetica, Arial, sans-serif; 
     margin: 0; 
@@ -22,25 +31,16 @@ body {
 }
 
 body.blog, body.blog-post, body.single-column { 
-    background: #fff url(../backgrounds/body-blog.png) 50% bottom no-repeat;  
-	background-attachment: fixed;
+    background: #fff;
+  	background-attachment: fixed;
 }
-
-/*
-.wrapper {
-    clear: both;
-    display: inline;
-    float: left;
-    width: 100%;
-}
-*/
 
 code {
     font-size: 120%;
 }
 
 .wrapper-upper {
-    background: #fff url(../backgrounds/body-revised.png) 50% bottom no-repeat;
+    background: #fff;
 }
 
 .blog .wrapper-upper, .blog-post .wrapper-upper, .single-column .wrapper-upper {
@@ -162,6 +162,14 @@ code {
     position: absolute;
     right: -15px;
     top: 0;
+}
+
+.content-upper .section-wide {
+    display: inline;
+    float: left;
+    margin: 0 0 0 15px;
+    padding: 0;
+    width: 900px;
 }
 
 
@@ -337,20 +345,13 @@ code {
     background: url(../images/speakapedia.png) top left no-repeat;
 }
 
-
-
-
-
-
-
-
-.content-upper div#googlemap {
+div#googlemap {
     border: 5px solid #f4f4f4;
-    position: absolute;
-    right: 0;
-    height: 280px;
-    top: 10px;
-    width: 480px;
+    display: inline;
+    float: left;
+    height: 210px;
+    margin-bottom: 20px;
+    width: 210px;
 }
 
 .pattern {
@@ -365,6 +366,8 @@ code {
 }
 
 .section blockquote {
+    clear: both;
+    display: block;
     margin-left: 0;
     padding-left: 15px;
 }
@@ -408,6 +411,37 @@ code {
     width: 565px;
 }
 
+.content-lower .section-home {
+    width: 375px;
+}
+
+.section-home .app-bar {
+    display: inline;
+    float: left;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 250px;
+}
+
+.section-home .app-bar li {
+    display: inline;
+    float: left;
+    margin: 0 10px 0 0;
+    padding: 0;
+    height: 40px;
+    width: 40px;
+}
+
+.content-lower .section-blog {
+    background: lighten($greenbg, 16%);
+    display: inline;
+    float: left;
+    margin: 135px 20px 0 25px;
+    padding: 20px;
+    width: 405px;
+}
+
 .content-lower .section-wide, .content-lower-alt .section-wide{
     clear: both;
     display: inline;
@@ -415,6 +449,16 @@ code {
     margin: 0 20px 0 15px;
     padding: 10px 0;
     width: 865px;
+}
+
+.content-lower-alt .section-content-highlight {
+    background: lighten($greenbg, 16%);
+    display: inline;
+    float: left;
+    margin: 0 0 20px 0;
+    padding: 20px;
+    width: 860px;
+    @include medradius;
 }
 
 .content-lower .section-app {
@@ -428,7 +472,7 @@ code {
     border-bottom: 0;
 }
 
-.content-lower .section-lower, .content-lower-alt .section-app-lower {
+.content-lower .section-lower, .content-lower .section-lower-wide, .content-lower-alt .section-app-lower {
     padding-top: 150px;
 }
 
@@ -436,7 +480,7 @@ code {
     clear: both;
 }
 
-/* @end */
+
 
 
 /* @group Typography
@@ -456,6 +500,14 @@ code {
     margin-bottom: 20px;
 }
 
+.section ul.half {
+    display: inline;
+    float: left;
+    width: 260px;
+    margin: 0 0 20px 20px;
+    padding: 0;
+}
+
 .section ul ul {
     font-size: 1.0em;
     margin-bottom: 5px;
@@ -468,6 +520,11 @@ code {
     font-weight: bold;
     line-height: 1.5385em;
     margin-bottom: 20px;
+}
+
+.contact .section h2,
+.single-column .section h2 {
+    margin-top: 20px;
 }
 
 .section h2.speakapedia {
@@ -492,6 +549,7 @@ code {
 
 .section h3 {
     color: #267d18;
+    clear: both;
     font-size: 1.8em;
     font-weight: bold;
     line-height: 1.111em;
@@ -538,7 +596,7 @@ code {
 
 .section p.excerpt {
     color: #333;
-    font-size: 1.6em;
+    font-size: 1.9em;
     line-height: 1.25em;
 }
 
@@ -569,6 +627,11 @@ code {
     padding: 5px 10px;
 }
 
+.subsection-booking h4 {
+    clear: left;
+    width: 205px;
+}
+
 .footer ul {
     font-size: 1.1em;
     line-height: 1.8182em;
@@ -578,7 +641,7 @@ code {
     text-align: center;
 }
 
-/* @end */
+
 
 .section ul.app-list {
     display: inline;
@@ -636,6 +699,18 @@ code {
 .section .overview li {
     margin-bottom: 10px;
 }
+
+.section p.fancy-link {
+    clear: both;
+    float: left;
+    width: 100%;
+}
+
+.section-blog p.fancy-link {
+    clear: both;
+    float: right;
+}
+
 .section p.fancy-link a {
     background: #666 url(../images/button.png) right 50% repeat-x;
     color: #fff !important;
@@ -695,8 +770,54 @@ form.license-key input#commit {
     width: 620px;
 }
 
+.section-blog-home,
+.section-blog-home .article {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    width: 395px;
+}
+
+.section-blog-home {
+    @include medradius;
+}
+
+.section-blog-home ul.archive {
+    list-style: none;
+    margin: 0;
+    width: 400px;
+}
+
+.section-blog-home ul.archive li {
+    clear: both;
+    display: inline;
+    float: left;
+    margin: 0;
+    width: 400px;
+}
+
+.section-blog-home p.read-more {
+    text-align: right;
+    width: 395px;
+}
+
 .section-blog p.post-meta {
     font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+.section-blog ul.post-share {
+    clear: both;
+    display: inline;
+    float: left;
+    margin: 5px 0 10px 0;
+    width: 100%;
+}
+
+.section-blog ul.post-share li {
+    display: inline;
+    float: left;
+    margin-right: 10px;
 }
 
 .section-blog .page-navigation {
@@ -719,11 +840,19 @@ form.license-key input#commit {
     width: 200px;
 }
 
+.section-blog  .article .fancy-link {
+    text-align: right;
+}
+
 .aside {
     display: inline;
     float: right;
     padding: 80px 0 0 10px;
     width: 220px;
+}
+
+.contact .aside {
+    margin-top: 20px;
 }
 
 .aside ul, .aside p {
@@ -739,6 +868,22 @@ form.license-key input#commit {
     font-size: 1.8em;
     font-weight: bold;
     line-height: 1.111em;
+}
+
+.aside .callout-box {
+    background: #fff;
+    border: 1px solid #ccc;
+    width: 218px;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.aside .callout-text {
+    font-size: 11px;
+    width: 200px;
+    margin: 5px 0 20px 0;
+    padding: 0 10px;
+    text-align: center;
 }
 
 .aside .callout {
@@ -788,7 +933,7 @@ form.license-key input#commit {
     font-size: 12px;
 }
 
-/* @end */
+
 
 
 /* @group Superfish Overrides
@@ -841,21 +986,130 @@ form.license-key input#commit {
     z-index: 10000;
 }
 
-/* @end */
+
 
 #video0fallback {
     background: #000;
 }
 
 
-/* @group Self Clear Floats
---------------------------------------------- */
-.group:after {
-    clear: both;
-    content: ".";
-    display: block;
-    height: 0; 
-    visibility: hidden;
+/* css 3 specific rules */
+
+.header li a,
+#googlemap,
+.header li ul {
+    @include smlradius;
 }
 
-/* @end */
+.header li li a {
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+}
+
+.header li li.top a, .header li li.top a:hover {
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+    -webkit-border-top-left-radius: 6px;
+    -webkit-border-top-right-radius: 6px;
+    -moz-border-radius-topleft: 6px;
+    -moz-border-radius-topright: 6px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.header li li.bottom a, .header li li.bottom a:hover {
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+    -webkit-border-bottom-left-radius: 6px;
+    -webkit-border-bottom-right-radius: 6px;
+    -moz-border-radius-bottomleft: 6px;
+    -moz-border-radius-bottomright: 6px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+
+.section p.fancy-link a {
+    @include largeradius;
+}
+
+
+
+
+/* @group Transitions - Fade In Links
+--------------------------------------------- */
+.section a {
+	-o-transition-duration: .667s;
+	-o-transition-property: color, background-color;
+	-webkit-transition-duration: .667s;
+	-webkit-transition-property: color, background;
+}
+
+.section p.fancy-link a {
+    background: rgba(0,0,0,0.6) url(../images/button.png) 50% right repeat-x;
+}
+
+.wufoo {
+    display: inline-block;
+    width: 565px;
+}
+
+.wufoo .info {
+    display: none;
+}
+
+#container, html.embed {
+    background-color: transparent;
+}
+
+.wufoo li {
+    display: inline;
+    float: left;
+    margin: 0 0 10px 0;
+    padding: 0 0 5px 0;
+    width: 100%;
+}
+
+.wufoo textarea.textarea, .wufoo input.text {
+    border: 1px solid #ccc !important;
+    border-top: 0;
+    padding: 7px 4px;
+    width: 500px;
+    outline: none;
+    border-radius:3px;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    transition: all 0.25s ease-in-out;
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+}
+
+.wufoo select {
+    width: 300px;
+}
+
+.wufoo input.fn, .wufoo input.ln {
+    width: 240px;
+}
+
+
+.wufoo textarea:focus, .wufoo input:focus {
+    background: #fff;
+    border: 1px solid #88b73e !important;
+    box-shadow: 0 0 5px rgba(136, 183, 62, 0.75);
+    -webkit-box-shadow: 0 0 5px rgba(136, 183, 62, 0.75); 
+    -moz-box-shadow: 0 0 5px rgba(136, 183, 62, 0.75); 
+}
+
+.wufoo li.focused {
+    background: none;
+}
+
+
+
+.wufoo li.focused {
+    background-color: none;
+}
