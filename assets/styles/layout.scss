@@ -627,6 +627,11 @@ div#googlemap {
     padding: 5px 10px;
 }
 
+.subsection-booking h4 {
+    clear: left;
+    width: 205px;
+}
+
 .footer ul {
     font-size: 1.1em;
     line-height: 1.8182em;
@@ -780,12 +785,15 @@ form.license-key input#commit {
 .section-blog-home ul.archive {
     list-style: none;
     margin: 0;
+    width: 400px;
 }
 
 .section-blog-home ul.archive li {
+    clear: both;
     display: inline;
     float: left;
     margin: 0;
+    width: 400px;
 }
 
 .section-blog-home p.read-more {
