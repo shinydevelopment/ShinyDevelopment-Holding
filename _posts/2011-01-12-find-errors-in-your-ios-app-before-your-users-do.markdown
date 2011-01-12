@@ -2,7 +2,7 @@
 layout: post
 title: Find errors in your iOS app before your users do!
 author: @daveverwer
-excerpt: 
+excerpt: We recently released a new version of Explore Flickr and while we did an extensive beta test with several users both technical and non-technical, a crashing bug slipped through the net and we ended up with a buggy app live on the app store. Luckily, we were able to find and fix the bug before it affected too many users and before even a single person reported it. I wanted to explain how we were able to see this problem before our users by using Flurry Analytics so that you can hopefully be in the same situation with your apps.
 ---
 We recently <a href="/blog/launching-explore-flickr-v20/">released a new version of Explore Flickr</a> and while we did an extensive beta test with several users both technical and non-technical, a crashing bug slipped through the net and we ended up with a buggy app live on the app store.
 
