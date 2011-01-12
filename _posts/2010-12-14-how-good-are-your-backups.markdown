@@ -8,7 +8,7 @@ Just over a week ago, I was woken up by a friend calling me to tell me that our 
 
 **Not good.**
 
-<p><iframe title="YouTube video player" class="youtube-player" type="text/html" width="600" height="367" src="http://www.youtube.com/embed/U--kJvGINxU?rel=0&amp;hd=1" frameborder="0"></iframe></p>
+<p><object width="600" height="362"><param name="movie" value="http://www.youtube.com/v/U--kJvGINxU?fs=1&amp;hl=en_US&amp;hd=1"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/U--kJvGINxU?fs=1&amp;hl=en_US&amp;hd=1" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="600" height="362"></embed></object></p>
 
 After finding out everyone was safe and unharmed, my first thought was to think of our data. We are a computer based knowledge business and our business lives and dies by the data that we create and work with every day. We were very lucky that we had a fairly solid backup strategy and did not lose anything that could not be replaced by insurance in the fire. I am writing this post to hopefully help some of you get into the same situation.
 
