@@ -47,6 +47,11 @@ code {
     background: none;
 }
 
+.note {
+    font-size: 70%;
+    line-height: 0.4em;
+}
+
 .container {
     margin: 0 auto;
     padding: 0 30px;
@@ -171,10 +176,6 @@ code {
     padding: 0;
     width: 900px;
 }
-
-
-
-
 
 .content-upper .screencast-portrait-container {
     display: inline;
