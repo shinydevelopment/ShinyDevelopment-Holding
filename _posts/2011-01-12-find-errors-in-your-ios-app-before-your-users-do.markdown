@@ -40,8 +40,10 @@ Luckily there is a way to send up details of the error along with the error repo
 The details of the bug itself are not that interesting so I won't go into more detail here about that but the technique used to catch the errors is interesting. It all comes down to registering an uncaught exception handler with <a href="http://developer.apple.com/library/mac/#documentation/Cocoa/Reference/Foundation/Miscellaneous/Foundation_Functions/Reference/reference.html%23//apple_ref/c/func/NSSetUncaughtExceptionHandler">NSSetUncaughtExceptionHandler</a> and then using that to send the exception data up to Flurry.
 
 <h3>Implementing Unhandled Exception Logging with Flurry</h3>
-<object width="600" height="362"><param name="movie" value="http://www.youtube.com/v/I9YDfur4HLw?fs=1&amp;hl=en_US&amp;rel=0&amp;hd=1"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/I9YDfur4HLw?fs=1&amp;hl=en_US&amp;rel=0&amp;hd=1" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="600" height="362"></embed></object>
+In this screencast we take a look at setting up a new project with the Flurry Analytics SDK and implementing an uncaught exception handler to log any errors.
 
-The code for this example is on github.com.
+<object width="600" height="362"><param name="movie" value="http://www.youtube.com/v/udoIUlqzZC4?fs=1&amp;hl=en_US&amp;rel=0&amp;hd=1"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/udoIUlqzZC4?fs=1&amp;hl=en_US&amp;rel=0&amp;hd=1" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="600" height="362"></embed></object>
+
+The source code for this screencast is <a href="https://github.com/daveverwer/UncaughtExceptionsDemo">available on github</a>.
 
 We are trying something a little new with the screencast but producing short video content like this is something I plan to do much more of this year. I would love to know what you think about it so contact me on twitter or ask me a question on formspring by using the buttons below.
