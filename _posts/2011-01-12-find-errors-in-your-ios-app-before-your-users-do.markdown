@@ -17,7 +17,7 @@ Unfortunately there are two fairly large disadvantages with this data. Firstly i
 Taking a look at the Explore Flickr crash reports in iTunes Connect reported no issues at all for any iOS version.
 
 <img src="http://shinydev.s3.amazonaws.com/blog-files/itunes-connect-crash-reports.png" />
-<span class="note">**Note:** This screenshot is actually for the latest version of our app v2.0.2, I would have taken a screenshot of the actual version but iTunes Connect does not let you access crash reports for old versions. You will just have to trust me that v2.0 of the app had no reports listed!</span>
+<p class="note"><strong>Note:</strong> This screenshot is actually for the latest version of Explore Flickr, v2.0.2. I would have taken a screenshot of the actual version but iTunes Connect does not let you access crash reports for old versions. You will just have to trust me that v2.0 of the app had no reports listed!</p>
 
 Before you completely discount these crash reports from Apple it is important to mention that I am not saying that the information provided here is not valuable, because it absolutely is and I am very glad that Apple implemented this feature. The point is that you should not be relying** only** on this data as it can give you a false sense of security about the stability of your app.
 
