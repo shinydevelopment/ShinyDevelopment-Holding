@@ -35,8 +35,11 @@ body.blog, body.blog-post, body.single-column {
   	background-attachment: fixed;
 }
 
-code {
+pre {
     font-size: 120%;
+    border: 1px #ddd solid;
+    background-color: #efefef;
+    padding: 10px;
 }
 
 .wrapper-upper {
