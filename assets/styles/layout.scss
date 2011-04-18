@@ -613,7 +613,9 @@ div#googlemap {
 }
 
 .subsection-booking-new {
-    padding: 0;
+    background: #e7f3e5;
+    border: 1px solid #d8ebe5;
+    padding: 15px 15px 5px 15px;
     width: 380px;
     
     p {
@@ -628,13 +630,14 @@ div#googlemap {
     }
     
     table {
-        border-top: 1px solid #e9e9e9;
+        border-top: 1px solid #d8ebe5;
+        border-bottom: 1px solid #ebf4f1;
     }
     
     td {
         
-        border-bottom: 1px solid #e9e9e9;
-        border-top: 1px solid #fdfdfd;
+        border-bottom: 1px solid #d8ebe5;
+        border-top: 1px solid #ebf4f1;
         font-size: 1.2em;
         margin: 0;
         padding: 15px 0;
@@ -648,11 +651,11 @@ div#googlemap {
     }
     
     td.date {
-        width: 160px;
+        width: 150px;
     }
     
     td.location {
-        width: 95px;
+        width: 105px;
     }
     
     td.register {
