@@ -1,10 +1,10 @@
 --- 
 layout: post
-title: Automatic Property Instance Variables with Objective C
+title: Automatic Property Instance Variables with Objective-C
 author: @daveverwer
-excerpt: The modern Objective C runtime includes a great timesaving feature of allowing automatic synthesis of instance variables. This is a great feature but one that I have been reluctant to use (and especially reluctant to teach) as the default implementation of it makes silly mistakes really easy to make.
+excerpt: The modern Objective-C runtime includes a great timesaving feature of allowing automatic synthesis of instance variables. This is a great feature but one that I have been reluctant to use (and especially reluctant to teach) as the default implementation of it makes silly mistakes really easy to make.
 ---
-The modern Objective C runtime includes a great timesaving feature of allowing automatic synthesis of instance variables. This is a great feature but one that I have been reluctant to use (and especially reluctant to teach) as the default implementation of it makes silly mistakes really easy to make.
+The modern Objective-C runtime includes a great timesaving feature of allowing automatic synthesis of instance variables. This is a great feature but one that I have been reluctant to use (and especially reluctant to teach) as the default implementation of it makes silly mistakes really easy to make.
 
 Take the example of a very simple Person class:
 
