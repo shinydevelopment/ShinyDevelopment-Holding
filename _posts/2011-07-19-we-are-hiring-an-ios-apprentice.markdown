@@ -12,7 +12,7 @@ Unlike Lord Sugar, we don't have £250,000 to invest in your business, but we **
 * Performing maintenance and updates to our existing apps.
 * Learning about everything new in iOS in order to help develop the demo apps and samples that we use for our training courses.
 
-Plus, you will be a guinea pig for all of the new training we are developing so there are even more opportunities to learn there! At the end of the year you should emerge as a fully fledged iOS ninja!
+Plus, you will be a guinea pig for all of the new training we are developing so there are even more opportunities to learn there! At the end of the year you should emerge as a fully fledged iOS ninja to potentially take a full time job working with us or step out into freelancing or other iOS work!
 
 ### What can we offer you?
 
