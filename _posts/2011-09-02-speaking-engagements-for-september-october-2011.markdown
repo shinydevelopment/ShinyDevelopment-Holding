@@ -2,7 +2,7 @@
 layout: post
 title: Speaking engagements for September/October 2011
 author: @daveverwer
-excerpt: 
+excerpt: I have been lucky enough to be asked to speak at a few conferences over the next couple of months wanted to summarise my plans here in case you want to come and say Hello!
 ---
 I have been lucky enough to be asked to speak at a few conferences over the next couple of months wanted to summarise my plans here in case you want to come and say Hello!
 
