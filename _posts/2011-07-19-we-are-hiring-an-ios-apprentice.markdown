@@ -4,6 +4,8 @@ title: We are hiring an iOS apprentice!
 author: @daveverwer
 excerpt: Unlike Lord Sugar, we don't have £250,000 to invest in your business, but we are looking to hire an apprentice to work with us developing iOS applications. We are offering a one year apprenticeship where you will be fully immersed in learning to create the best iOS software around.
 ---
+**This position has now been filled, thank you for your interest.**
+
 Unlike Lord Sugar, we don't have £250,000 to invest in your business, but we **are** looking to hire an apprentice to work with us developing iOS applications. We are offering a one year apprenticeship where you will be fully immersed in learning to create the best iOS software around.
 
 ### What will you be doing?
@@ -24,6 +26,4 @@ No Objective-C or iOS development experience is strictly necessary for this posi
 
 Salary will be dependent on experience.
 
-If this sounds like something you be interested in, please [send across your CV](mailto:dave.verwer@shinydevelopment.com) just so we get a bit of background on you and feel free to include any other details on why you would be right for the position.
-
-**Strictly no agencies.**
+**This position has now been filled, thank you for your interest.**
