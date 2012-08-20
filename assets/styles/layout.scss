@@ -25,12 +25,12 @@ $greenbg: rgb(178,220,178);
 --------------------------------------------- */
 body {
     color: #000;
-    font-family: "Lucida Grande", Helvetica, Arial, sans-serif; 
-    margin: 0; 
+    font-family: "Lucida Grande", Helvetica, Arial, sans-serif;
+    margin: 0;
     padding: 0;
 }
 
-body.blog, body.blog-post, body.single-column { 
+body.blog, body.blog-post, body.single-column {
     background: #fff;
   	background-attachment: fixed;
 }
@@ -245,7 +245,7 @@ pre {
   height: 290px;
   padding: 26px 25px 26px 74px;
   width: 355px;
-  
+
 }
 
 .content-upper .screencast-landscape .play-icon {
@@ -284,7 +284,7 @@ pre {
   float: left;
   height: 400px;
   width: 450px;
-  
+
 }
 
 .content-upper .screencast-ipad .play-icon {
@@ -567,6 +567,12 @@ div#googlemap {
     margin-bottom: 20px;
 }
 
+.section-app h3.tackle-fishing {
+    background: url(../icons/tackle-fishing-small.png) left 50% no-repeat;
+    line-height: 1.333em;
+    padding-left: 35px;
+}
+
 .section-app h3.balloons {
     background: url(../icons/balloons-small.png) left 50% no-repeat;
     line-height: 1.333em;
@@ -625,53 +631,53 @@ div#googlemap {
     border: 1px solid #d8ebe5;
     padding: 15px 15px 5px 15px;
     width: 380px;
-    
+
     p {
-        
+
         span {
-            
+
             background: none;
             color: #267d18;
-            
+
         }
-        
+
     }
-    
+
     table {
         border-top: 1px solid #d8ebe5;
         border-bottom: 1px solid #ebf4f1;
     }
-    
+
     td {
-        
+
         border-bottom: 1px solid #d8ebe5;
         border-top: 1px solid #ebf4f1;
         font-size: 1.2em;
         margin: 0;
         padding: 15px 0;
-        
+
         p {
             font-size: 1em;
             line-height: normal;
             margin: 0;
         }
-        
+
     }
-    
+
     td.date {
         width: 140px;
     }
-    
+
     td.location {
         width: 115px;
     }
-    
+
     td.register {
         text-align: right;
         width: 125px;
-        
+
         p {
-             
+
              a {
                  background: #e37b2f;
                  background: #f59609 url(../images/button.png) left 50% no-repeat;
@@ -679,16 +685,16 @@ div#googlemap {
                  @include smlradius;
                  padding: 6px 12px;
              }
-             
+
              a:hover {
                  background-color: #fa023c;
                  text-decoration: none;
              }
-             
+
         }
-        
+
     }
-    
+
 }
 
 .subsection-booking {
@@ -804,9 +810,9 @@ div#googlemap {
     text-decoration: none !important;
 }
 
-.section p.fancy-link a:hover { 
-    background-color: #429334 !important; 
-    color: #fff !important; 
+.section p.fancy-link a:hover {
+    background-color: #429334 !important;
+    color: #fff !important;
     text-decoration: none !important;
 }
 
@@ -1182,8 +1188,8 @@ form.license-key input#commit {
     background: #fff;
     border: 1px solid #88b73e !important;
     box-shadow: 0 0 5px rgba(136, 183, 62, 0.75);
-    -webkit-box-shadow: 0 0 5px rgba(136, 183, 62, 0.75); 
-    -moz-box-shadow: 0 0 5px rgba(136, 183, 62, 0.75); 
+    -webkit-box-shadow: 0 0 5px rgba(136, 183, 62, 0.75);
+    -moz-box-shadow: 0 0 5px rgba(136, 183, 62, 0.75);
 }
 
 .wufoo li.focused {
