@@ -3,7 +3,6 @@ server: false
 destination: ./_site
 markdown: rdiscount
 pygments: true
-lsi: true
 exclude: templates, capfile, capistrano, _masters
 url: http://shinydevelopment.com
 permalink: /blog/:title
