@@ -23,14 +23,14 @@ The moment I saw the cross section scrolling horizontally back and forth, it occ
 
 A 2D picture would show the information almost as well. If we could get that depth effect though, it would instantly add visual interest, transforming a flat, lifeless picture into something unique to an electronic platform.
 
-## Style
+### Style
 I had a largely free hand to come up with a style for the graphics, which is great but I've learned through the years that the parameters and aims of a task can be very helpful. Far from stifling creativity, I've come to welcome them, to the point that, when there are no parameters to work within, I often come up with my own as I find it gives me a direction to head in.
 
 As it happened, the reference I was given pointed the way. As well as sketches and written content provided by Chris Mayer, he'd also provided a few reference pictures from some recent fishing magazines. Looking at them, I was immediately transported to the Dentist. The pictures seemed to be taken from dusty old seventies magazines - very old fashioned - but these were the style contemporary books and magazines were using. This instantly pointed me in the opposite direction. I wanted our app to look fresh and modern, not something Time Team had unearthed while waiting for a filling (or should that be a crown?).
 
 Any number of styles would fulfil that requirement but one I immediately ruled out was 'realistic'. It's a very narrow artistic target to aim for and also time consuming to create so I preferred a more stylised approach, something almost cartoony. With that as the aim, I was reminded of the Disney film Sleeping Beauty. It has this distinct mix of realistic and almost abstract, especially in the backgrounds, which I thought would be interesting.
 
-## Reference
+### Reference
 Reference is often underestimated. In my experience, the better the reference, the better the final artwork. It's never a case of copying something directly, you're soaking yourself in a certain aspect (a particular style, how an object looks and so on), letting it all melt together in your head, eventually coming out as a unique but detailed and accurate representation of that thing.
 
 Googling frame grabs from Sleeping Beauty confirmed it was roughly the style I wanted to aim for. The next step was to mockup a rough version. For this, I used Photoshop. Although I was leaning toward Illustrator to produce the final work, Photoshop allows me to be more spontaneous and experimental. Doing anything in Illustrator requires a plan.
@@ -41,19 +41,19 @@ I took the reference material, cut bits out, pulled and pushed them as necessary
 
 This, along with a bit of explanation and some pointing at the reference, is how I presented the planned style to the team. Although there's little detail in the mockup, it seemed to be enough to put the idea across and I got the go ahead.
 
-## Choose your Weapons
+### Choose your Weapons
 I decided to produce the final graphics using Adobe Illustrator. This was largely because I thought it would lend itself to making the bright, colourful look I was going for. I also wanted to get more familiar with the software as I'd only really used it a small amount in the past.
 
 I'd previously used a much older version of the software, not a lot but just enough to get over that initial hatred most people have when they first try it. There're few experiences in the world as frustrating as getting to grips with making and editing a spline in Illustrator. Just something as fundamental as selecting and moving a point is enough to cause Buddhist monks to seethe with rage and boot their computer down the mountain. However, I had a brand new copy of the latest version of Illustrator (CS 5.1 - CS6 was released around the time the project was wrapping up) and I wanted to see what improvements had been made.
 
-## Creating the River Cross Section
+### Creating the River Cross Section
 The starting point for this was the sketch our fishing expert, Chris Mayer, produced showing the details needed in the illustration.
 
 ![Chris Meyer Sketch](http://shinydev.s3.amazonaws.com/blog-files/tackle-fishing-4-chris-meyer-sketch.png)
 
 I took this sketch into Illustrator and started by tracing the cross section of the river bed. I extended the muddy area to roughly match the shape in the sketch, added a couple of boxes, filled them with colour gradients and had the start of the sky and water.
 
-### River Cross Section - Stage 1
+#### River Cross Section - Stage 1
 
 ![Work in Progress 1](http://shinydev.s3.amazonaws.com/blog-files/tackle-fishing-5-wip-v1.png)
 
@@ -69,7 +69,7 @@ I couldn't resist trying a quick and dirty effect to hint at the more distant la
 
 It seems funny now but when I originally showed this first 'work in progress' image to the team, I felt the need to point out it wasn't finished yet.
 
-### River Cross Section - Stage 2
+#### River Cross Section - Stage 2
 
 ![Work in Progress 2](http://shinydev.s3.amazonaws.com/blog-files/tackle-fishing-7-wip-v2.png)
 
@@ -87,7 +87,7 @@ I copied the banks and added them as distant layers but you can start to see the
 
 ![Transparent Tree](http://shinydev.s3.amazonaws.com/blog-files/tackle-fishing-9-transparent-tree.png)
 
-### River Cross Section - Stage 3
+#### River Cross Section - Stage 3
 
 ![Work in Progress 3](http://shinydev.s3.amazonaws.com/blog-files/tackle-fishing-10-wip-v3.png)
 
@@ -101,7 +101,7 @@ The mud was a big opaque area that needed enough detail to avoid looking flat an
 
 I also used the Roughen effect from the clouds and added it to the water to give more naturalistic waves.
 
-## Adding the figures
+### Adding the figures
 Chris Mayer's original sketch showed a fisherman and, wanting to encourage people of all ages to use the app, we had him accompanied by a child. After collecting some suitable reference and sketching a few poses, I settled on showing the man sitting cross legged with the boy standing next to him. I toyed with various other combinations but figured the scenario was a Dad showing his son how to fish. I find it useful to have some sort of scenario to base a decision on, as trivial as it is, if for no other reason than to be able to justify it if needed.
 
 The trickiest thing about designing the figures was deciding what expression to give them. They shouldn't look miserable but they also couldn't have big, daft grins on their faces as they'd look very odd, frozen in that state. Eventually, I settled on a bit of a subtle smirk. No doubt Leonardo da Vinci must have gone through a similar process when he was painting the Mona Lisa, “Lose the stupid grin love. You look like a nutter.”
@@ -120,7 +120,7 @@ I split the two figures over separate layers to get some parallax movement betwe
 
 ![Fishing Stuff](http://shinydev.s3.amazonaws.com/blog-files/tackle-fishing-14-fishing-stuff.png)
 
-## Fishy goings on
+### Fishy goings on
 Fish were the last main element added. The problem was that I needed several different fish for each species, all in different poses. Making them in Illustrator would take forever so I had to come up with a better way. I decided to make them as 3D textured models. They were simple(ish) shapes that would be seen at a distance so the model needn't be very detailed. It would then be easy to render them at various angles giving me dozens of different fish for a minimal amount of work.
 
 This turned out to be one of my better decisions and I was able to produce all the fish in just a few days. It was simply a matter of loading the resulting files into Illustrator and adding them in a pleasing arrangement. I was also keen to sprinkle a few on the distant layers to give each shoal some depth.
@@ -133,7 +133,7 @@ This turned out to be one of my better decisions and I was able to produce all t
 
 The texture was slapped on very quickly so is pretty bad but good enough for the size they'll be seen at.
 
-## Polishing it off
+### Polishing it off
 ![Work in Progress 4](http://shinydev.s3.amazonaws.com/blog-files/tackle-fishing-18-wip-v4.png)
 
 With the figures and fish added, I was nearly done.
@@ -154,7 +154,7 @@ Once I had a version of the app with the parallax functionality, I was able to s
 
 The parallax movement makes a big impact for comparatively little extra work and I have to say, I was very happy with it. The water especially has a life and depth that it wouldn't otherwise have had.
 
-## Are we nearly there yet?
+### Are we nearly there yet?
 So that was the River cross section finished. Just the Canal and Lake cross sections to do now. And all the rigs. And the menus. And the App Icon. I wasn't there yet.
 
 Tackle Fishing was released in June. It's [available now on the App Store](http://itunes.apple.com/gb/app/tackle-fishing-catch-more/id533818581?mt=8). To find out more, [visit the app's website](http://tacklefishingapp.com/).
