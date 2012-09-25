@@ -17,7 +17,9 @@ The bare bones of the app had been finished before I started on the project so t
 
 ![Original Programmer Art](http://shinydev.s3.amazonaws.com/blog-files/tackle-fishing-2-original-cross-section.png)
 
-The moment I saw the cross section scrolling horizontally back and forth, it occurred to me that if we could have multiple 'layers' in the illustration moving at different speeds, we'd get what's called a 'parallax' 3D effect. If you're not sure what that is, just think of the scenery as you drive along - the close objects whizz by faster than the distant ones. That's parallax movement.
+The moment I saw the cross section scrolling horizontally back and forth, it occurred to me that if we could have multiple layers in the illustration moving at different speeds, we'd get what's called a parallax 3D effect. If you're not sure what that is, just think of the scenery as you drive along - the close objects whizz by faster than the distant ones. That's parallax movement.
+
+<iframe width="500" height="719" src="http://www.youtube.com/embed/IsPfdl-hf74?rel=0&amp;vq=hd720" frameborder="0" allowfullscreen></iframe>
 
 A 2D picture would show the information almost as well. If we could get that depth effect though, it would instantly add visual interest, transforming a flat, lifeless picture into something unique to an electronic platform.
 
