@@ -5,12 +5,5 @@ RewriteEngine on
 RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
 RewriteRule ^(.*)$ http://%1/$1 [R=301]
 
-# Redirect old web pages
-Redirect 301 /interestingness http://exploreflickr.com
-Redirect 301 /explore-flickr http://exploreflickr.com
-Redirect 301 /speakapedia/updates.xml http://shinydev-updates.s3.amazonaws.com/speakapedia.xml
-Redirect 301 /support http://shinydevelopment.com/contact
-Redirect 301 /rag http://shinydevelopment.com/the-rag
-
 # Custom error
 ErrorDocument 404 /error.html
