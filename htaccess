@@ -1,5 +1,6 @@
 Options +SymLinksIfOwnerMatch +MultiViews
 RewriteEngine on
+RewriteBase /
 
 # Get rid of www in the domain
 RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
