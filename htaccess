@@ -4,7 +4,7 @@ RewriteBase /
 
 # Get rid of www in the domain
 RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
-RewriteRule ^(.*)$ http://%1/$1 [R=301]
+RewriteRule ^_site\/(.*)$ http://%1/$1 [R=301]
 
 # Redirect old web pages
 Redirect 301 /interestingness http://exploreflickr.com
