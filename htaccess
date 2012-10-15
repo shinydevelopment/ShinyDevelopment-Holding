@@ -4,6 +4,7 @@ RewriteBase /
 
 # Get rid of www in the domain
 RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
+RewriteCond %{REQUEST_URI} .* [NC]
 RewriteRule ^_site\/(.*)$ http://%1/$1 [R=301]
 
 # Redirect old web pages
