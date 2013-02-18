@@ -1,0 +1,31 @@
+---
+layout: default
+title: Preparing a Translucent Screenshot with Status Magic | Shiny Development
+permalink: /status-magic/translucent-screenshots-help/
+---
+<div class="wrapper pattern">
+
+  <div class="container content-lower-alt">
+    <div class="section section-app">
+      <h3>Preparing a Translucent Screenshot with Status Magic</h3>
+      <p>As of version 1.7, <a href="/status-magic/">Status Magic</a> now includes support for translucent status bars in app screenshots. However, screenshots taken from apps which make use of translucent status bars must be captured in a slightly different way before they can be processed.</p>
+      <p>Screenshots captured from an app which uses a transparent status bar must have the status bar excluded from the capture area when the screenshot is taken. This is not possible by capturing screenshots on the device or simulator and the screenshot must be taken by calling code internally from within your app.</p>
+      <p>The code below will take a screenshot of the entire window, excluding the status bar and the reasult will look something like the example on the right. This is then ready for processing within <a href="/status-magic/">Status Magic</a>.</p>
+      <p>For more information on this from Apple, see the tech note:</p>
+      <p class="fancy-link"><a href="http://developer.apple.com/library/ios/#qa/qa1703/_index.html">Technical Q&amp;A QA1703</a></p>
+    </div>
+    <div class="section section-app" style="text-align:center;">
+      <img src="/assets/images/transparent-status-bar-sample.png">
+    </div>
+  </div>
+
+  <div class="container content-lower">
+    <div class="section" style="width:100%;">
+      <h3>Sample code for capturing a screenshot excluding the status bar</h3>
+      <p><script src="https://gist.github.com/daveverwer/4978196.js"></script></p>
+    </div>
+  </div>
+
+  <br style="clear:both" />
+
+</div>
