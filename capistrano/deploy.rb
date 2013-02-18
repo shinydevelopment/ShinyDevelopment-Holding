@@ -4,7 +4,7 @@ set :application, "shinydevelopment_web"
 set(:deploy_to) { File.join("", "home", user, application) }
 
 set :scm, :git
-set :repository,  "git@codebasehq.com:shiny/shinydevelopment/shinydevelopmentsite-jekyll.git"
+set :repository,  "git@bitbucket.org:shinydevelopment/shinydevelopment-site.git"
 set :branch, "master"
 set :deploy_via, :remote_cache
 
