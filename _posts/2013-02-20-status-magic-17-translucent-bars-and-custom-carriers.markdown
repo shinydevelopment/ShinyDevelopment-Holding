@@ -7,7 +7,7 @@ excerpt: Today sees the release of v1.7 of Status Magic, our tool for replacing 
 
 Today sees the release of v1.7 of <a href="/status-magic/">Status Magic</a>, our tool for replacing the status bars on your App Store screenshots with perfectly crafted unobtrustive versions just like Apple do in their marketing materials.
 
-This version includes for two new features, support for translucent status bars and custom carrier text.
+This version includes two new features, support for translucent status bars and custom carrier text.
 
 ### Translucent Status Bars
 
@@ -28,9 +28,9 @@ More information on how to save screenshots from your app without the status bar
 
 <img class="right" src="http://shinydev.s3.amazonaws.com/blog-files/status-magic-carrier-text-options.png" alt="Status Magic Custom Carrier Text Settings">
 
-The second feature we added with this release was support for custom carrier text. This was something that people had been asking for since the very first release of the app but was something I had always resisted as Apple recommend not including carrier text on App Store screenshots in their <a href="https://developer.apple.com/appstore/AppStoreMarketingGuidelines.pdf">App Store Marketing Guidelines</a>.
+The second feature we have added to this release is support for custom carrier text. This is something that people have been asking for since the very first release of the app but was something I had always resisted as Apple recommend not including carrier text on App Store screenshots in their <a href="https://developer.apple.com/appstore/AppStoreMarketingGuidelines.pdf">App Store Marketing Guidelines</a>.
 
-But, it turned out that people were using Status Magic for more than just App Store screenshots. Journalists and book authors were using it to prepare screenshots for books/posts they were writing. People also wanted to use it to stamp some identity on screenshots that were being linked around the web. People using the app for things like this naturally don't need to pay much attention to Apple's App Store marketing guildelines and wanted this feature.
+But, it turns out that people are using Status Magic for more than just App Store screenshots. Journalists and book authors are using it to prepare screenshots for books/posts they were writing. Others also want to use it to stamp some identity on screenshots that were being linked around the web. People using the app for things like this naturally don't need to pay much attention to Apple's App Store marketing guidelines and wanted this feature.
 
 After <a href="https://gist.github.com/daveverwer/4270117">taking the advice of the internet</a> we decided that it was better to allow the custom carrier text to be added but also to include guidance around when it is appropriate to use custom carrier text.
 
@@ -59,5 +59,3 @@ Status Magic v1.7 is now available through the Mac App Store and the full releas
 * Bug Fix: When exporting using generated file names Status Magic now distinguishes between iPhone 3.5 inch and iPhone 4 inch images in the file name.
 * Bug Fix: Custom time text no longer attempts to word wrap, oops!
 * Bug Fix: Reordering of screenshots in the lower panel now works again!
-
-
