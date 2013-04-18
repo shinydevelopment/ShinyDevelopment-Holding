@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: Build an iPhone app in 20 minutes
-author: @daveverwer
+author: Dave Verwer
 excerpt: Back at <a href="http://barcampleeds.com/">BarCamp Leeds</a> many months ago I gave my first iPhone talk and I decided to attempt to write a native iPhone app in 20 minutes. I really wanted to talk about iPhone development but I also wanted to let people know that it is not hard to get started so I really needed to be able to do "New Project" at the start of the session and with the exception of some copy/paste for the XML fetching code to show the end to end process of building a simple app.
 ---
 <img class="right" src="http://shinydev.s3.amazonaws.com/blog-files/barcamp-test-app.png" />

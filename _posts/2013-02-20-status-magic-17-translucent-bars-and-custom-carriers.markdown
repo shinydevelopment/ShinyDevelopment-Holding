@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Status Magic 1.7 - Translucent Bars and Custom Carriers
-author: @daveverwer
+author: Dave Verwer
 excerpt: Today sees the release of v1.7 of Status Magic, our tool for replacing the status bars on your App Store screenshots with perfectly crafted unobtrustive versions just like Apple do in their marketing materials. This version includes for two new features, support for translucent status bars and custom carrier text.
 ---
 

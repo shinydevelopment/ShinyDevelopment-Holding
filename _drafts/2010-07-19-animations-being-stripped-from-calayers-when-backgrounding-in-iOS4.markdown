@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: Animations being stripped from CALayers when backhrounding in iOS4
-author: @daveverwer
+author: Dave Verwer
 excerpt: Blah.
 ---
 So recently while I was upgrading [Balloons!][1] for iOS4 and fast app switching I came across a problem where 

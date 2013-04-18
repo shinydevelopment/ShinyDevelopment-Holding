@@ -1,7 +1,7 @@
 ---
 layout: post
 title: App Store Review Times on Status Board
-author: @daveverwer
+author: Dave Verwer
 excerpt: Yesterday Panic launched a new iPad app for creating a custom status board and I really wanted to get the data from the App Store Review Times site up on it so I knocked together a couple of quick status board compatible data feeds on the site today! Grab them now while they are hot!
 ---
 

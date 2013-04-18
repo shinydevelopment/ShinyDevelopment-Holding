@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: The many different types of balloons in the world!
-author: @daveverwer
+author: Dave Verwer
 excerpt: As the developer of an app with such a widely used name as <a href="http://balloonsapp.com">Balloons!</a>, we occasionally get email from people who have not quite grasped exactly what we do and I thought I would share this funny email exchange with you all!
 ---
 As the developer of an app with such a widely used name as <a href="http://balloonsapp.com">Balloons!</a>, we occasionally get email from people who have not quite grasped exactly what we do.

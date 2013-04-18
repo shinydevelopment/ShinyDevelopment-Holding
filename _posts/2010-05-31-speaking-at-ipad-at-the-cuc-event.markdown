@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: Speaking at the &#8220;iPad at the C.U.C.&#8221; event
-author: @daveverwer
+author: Dave Verwer
 excerpt: It is always a pleasure to be asked to speak at an event and I have recently been asked to get involved and do a short talk at the <a rel="nofollow" href="http://ipadliverpool.eventbrite.com/">&#8220;iPad at the C.U.C.&#8221;</a> event being held in Liverpool this week.
 ---
 

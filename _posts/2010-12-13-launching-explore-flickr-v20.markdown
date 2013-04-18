@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: Launching Explore Flickr v2.0
-author: @daveverwer
+author: Dave Verwer
 excerpt: Back in 2007 when we were first dipping our toes into the world of Mac development I took a few days and created a small dashboard widget based on the &ldquo;Explore&rdquo; photos on flickr.com. I loved browsing these amazing photos every day and it seemed an obvious subject for our first experiments with Mac development and we are very happy to have just a major upgrade to the iPad, iPhone and iPod Touch version of this app, Explore Flickr. 
 
 ---

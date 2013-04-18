@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: How long do apps take to review?
-author: @daveverwer
+author: Dave Verwer
 excerpt: I get asked all the time &ldquo;How long does Apple take to review an app?&rdquo; and beyond the length of my last app review and a feeling about how long the reviews of friends are taking I really have no good answer to the question. People occasionally tweet about how long their last review took, but people tend to only do this when it is an unusually short or long amount of time.
 
 ---

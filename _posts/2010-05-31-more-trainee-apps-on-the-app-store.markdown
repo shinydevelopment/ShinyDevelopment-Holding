@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: More trainee apps on the App Store!
-author: @daveverwer
+author: Dave Verwer
 excerpt: I absolutely love it when people who I have trained get apps released onto the app store, after all that's what our <a href="http://shinydevelopment.com/training">training courses</a> are all about at the end of the day! I love it even more when they write and let me know that their apps are live, I recently had emails from <a rel="nofollow" href="http://www.splashbroadcast.com/">Splash Broadcast</a> and <a rel="nofollow" href="http://www.textiles.leeds.ac.uk/staff/stephen_westland.htm">Stephen Westland</a> both giving me the great news that they had apps approved on the iTunes store.
 ---
 

@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: Over The Air iOS Provisioning and Distribution
-author: @daveverwer
+author: Dave Verwer
 excerpt: I have been asked several times recently about iOS Ad Hoc distribution and specifically about over the air deployment of ad hoc builds without the need for an enterprise deployment certificate, or use of a third party service, or for those of you who just want to know more about the process so I thought I would write up a little step by step of how to do it!
 ---
 **Note:** This article is an explanation of how to do over the air deployment of an ad hoc iOS application build manually using a self-hosted web server. If self-hosting of the ad hoc files is not a requirement then I would recommend using a third party service such as [Test Flight](http://testflightapp.com) or a possibly a self hosted, fully managed solution like [Hockey](http://www.hockeyapp.net/).

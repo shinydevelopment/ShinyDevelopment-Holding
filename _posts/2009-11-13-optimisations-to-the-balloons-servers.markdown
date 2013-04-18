@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: Optimisations to the Balloons! servers
-author: @daveverwer
+author: Dave Verwer
 excerpt: We had some issues this week with the <a href="http://balloonsapp.com">Balloons!</a> servers and while they didn't get bad enough to cause a noticeable slowdown to users but as usage of Balloons! has ramped up this week the servers were gradually slowing down.
 ---
 We had some issues this week with the <a href="http://balloonsapp.com">Balloons!</a> servers and while they didn't get bad enough to cause a noticeable slowdown to users but as usage of Balloons! has ramped up this week the servers were gradually slowing down:

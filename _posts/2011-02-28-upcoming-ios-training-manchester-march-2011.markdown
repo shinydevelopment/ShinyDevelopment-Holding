@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: Upcoming iOS Training - Manchester, March 2011
-author: @daveverwer
+author: Dave Verwer
 excerpt: Just a quick mention that we still have places available for our iOS Development Training courses in Manchester, UK next week from the 7th to the 10th March!
 ---
 Just a quick mention that we still have places available for our <a href="/iphone-training">iOS Development Training</a> courses in Manchester, UK **next week** from the 7th to the 10th March.

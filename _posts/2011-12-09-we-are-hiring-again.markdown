@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: We are hiring... again!
-author: @daveverwer
+author: Dave Verwer
 excerpt: I am really happy to announce that we are again looking to expand and hire two more people to join us in changing the world, one iOS app at a time! We are looking for a Senior Ruby/Rails Developer and also a Visual and Interaction Designer.
 
 ---

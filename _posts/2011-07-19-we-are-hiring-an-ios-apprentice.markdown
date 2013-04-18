@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: We are hiring an iOS apprentice!
-author: @daveverwer
+author: Dave Verwer
 excerpt: Unlike Lord Sugar, we don't have £250,000 to invest in your business, but we are looking to hire an apprentice to work with us developing iOS applications. We are offering a one year apprenticeship where you will be fully immersed in learning to create the best iOS software around.
 ---
 **This position has now been filled, thank you for your interest.**

@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: Being embarrased about shipping v1.0
-author: @daveverwer
+author: Dave Verwer
 excerpt: Are Apple ever embarrassed about the v1.0 products they ship? Absolutely, but they are embarrassed about lacking features, not quality. Shipping a product is a huge task to take on and compromises are always going to be made but I believe Apple take the right choices here to still ship amazing products while making the necessary compromises.
 ---
 A friend of mine tweeted a commonly quoted phrase tonight.

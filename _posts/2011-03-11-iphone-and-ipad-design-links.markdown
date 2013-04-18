@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: iPhone and iPad Design Links
-author: @daveverwer
+author: Dave Verwer
 excerpt: Here is a quick list of a couple of sites I discovered recently, and a couple that I have been following for a while that are all fantastic ways to keep up with what is happening in iOS and Mac app design at the moment as well as being great sources of inspiration for your own apps.
 ---
 Here is a quick list of a couple of sites I discovered recently, and a couple that I have been following for a while that are all fantastic ways to keep up with what is happening in iOS and Mac app design at the moment as well as being great sources of inspiration for your own apps.

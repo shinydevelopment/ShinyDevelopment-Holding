@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: How good are your backups?
-author: @daveverwer
+author: Dave Verwer
 excerpt: Just over a week ago, I was woken up by a friend calling me to tell me that our office was on fire! This is not a very pleasant way to wake up and I hope it never happens to any of you, however it did happen and everything inside our office was totally destroyed.
 ---
 Just over a week ago, I was woken up by a friend calling me to tell me that our office was on fire! This is not a very pleasant way to wake up and I hope it never happens to any of you, however it did happen and everything inside our office was totally destroyed.

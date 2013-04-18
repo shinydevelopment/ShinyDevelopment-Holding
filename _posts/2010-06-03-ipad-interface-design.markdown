@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: iPad Interface Design
-author: @daveverwer
+author: Dave Verwer
 excerpt: I had the pleasure of speaking at the <a rel="nofollow" href="http://ipadliverpool.eventbrite.com/">iPad at the CUC</a> event last night in Liverpool and as promised am posting the slides here from my talk. I am not sure the slides make a whole lot of sense without the words that accompanied them but hopefully they will provide some visual reminders if you attended the talk. I wish I could have talked for longer last night, there is so much more in the usability study that I referenced that and so many other apps I would have liked to showcase but there just wasn't time in 20 minutes.
 ---
 I had the pleasure of speaking at the <a rel="nofollow" href="http://ipadliverpool.eventbrite.com/">iPad at the CUC</a> event last night in Liverpool and as promised am posting the slides here from my talk.

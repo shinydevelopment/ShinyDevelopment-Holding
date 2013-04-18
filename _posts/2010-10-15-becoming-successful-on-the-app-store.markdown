@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: Becoming Successful on the App Store.
-author: @daveverwer
+author: Dave Verwer
 excerpt: Planning, designing, developing, illustrating, testing and debugging iOS apps can be a huge amount of work and by the time you get through with development it is easy to fall into the trap of just wanting to see your creation on the app store as soon as possible! However, the release of an app is not something you should rush into and a little careful planning (and subsequent execution) of a marketing plan can make all the difference between your app languishing at number 8273 in the charts and being successful!
 
 ---
