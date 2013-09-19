@@ -1195,3 +1195,11 @@ form.license-key input#commit {
 .wufoo li.focused {
     background-color: none;
 }
+
+.screenshot_carousel img {
+    display: block;
+    float: left;
+    margin: 10px;
+    height: 650px;
+    width: 900px;
+}
