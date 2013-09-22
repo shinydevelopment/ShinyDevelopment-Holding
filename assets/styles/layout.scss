@@ -63,6 +63,11 @@ pre {
     line-height: 1.2em !important;
 }
 
+.announcement {
+    font-weight: bold;
+    color: #c00;
+}
+
 .container {
     margin: 0 auto;
     padding: 0 30px;
@@ -826,11 +831,9 @@ form.license-key input#customer_email {
     padding: 6px;
 }
 
-
 form.license-key input#commit {
     clear: both;
 }
-
 
 /* @group Blog Styles
 --------------------------------------------- */
