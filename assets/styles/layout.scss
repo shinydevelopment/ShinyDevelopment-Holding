@@ -489,9 +489,6 @@ div#googlemap {
     clear: both;
 }
 
-
-
-
 /* @group Typography
 --------------------------------------------- */
 .container a {
@@ -726,8 +723,6 @@ div#googlemap {
     padding: 0;
     text-align: center;
 }
-
-
 
 .section ul.app-list {
     display: inline;
@@ -1015,9 +1010,6 @@ form.license-key input#commit {
     font-size: 12px;
 }
 
-
-
-
 /* @group Superfish Overrides
 --------------------------------------------- */
 .sf-menu li a {
@@ -1068,12 +1060,9 @@ form.license-key input#commit {
     z-index: 10000;
 }
 
-
-
 #video0fallback {
     background: #000;
 }
-
 
 /* css 3 specific rules */
 
@@ -1113,13 +1102,9 @@ form.license-key input#commit {
     border-bottom-right-radius: 6px;
 }
 
-
 .section p.fancy-link a {
     @include largeradius;
 }
-
-
-
 
 /* @group Transitions - Fade In Links
 --------------------------------------------- */
@@ -1177,7 +1162,6 @@ form.license-key input#commit {
     width: 240px;
 }
 
-
 .wufoo textarea:focus, .wufoo input:focus {
     background: #fff;
     border: 1px solid #88b73e !important;
@@ -1189,8 +1173,6 @@ form.license-key input#commit {
 .wufoo li.focused {
     background: none;
 }
-
-
 
 .wufoo li.focused {
     background-color: none;
