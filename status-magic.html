@@ -62,22 +62,12 @@ permalink: /status-magic/
 
 <script type="text/javascript">
 $(document).ready(function() {
-
-  // Using custom configuration
   $(".screenshot_carousel").carouFredSel({
-    items : {
-      visible     : 1,
-      start     : 0,
-    },
-    direction     : "left",
-    width       : 900,
-    scroll : {
-      items     : 1,
-      easing      : "swing",
-      duration    : 1000,             
-      pauseOnHover  : true
-    }         
-  }); 
+    items: { visible: 1, start: 0 },
+    direction: "left",
+    width: 900,
+    height: 562,
+    scroll: { items: 1, easing: "swing", duration: 1000, pauseOnHover: false }
+  });
 });
 </script>
-
