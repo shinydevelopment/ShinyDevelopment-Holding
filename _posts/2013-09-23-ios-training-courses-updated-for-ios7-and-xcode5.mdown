@@ -1,4 +1,4 @@
---- 
+---
 layout: post
 title: iOS Training Courses Fully Updated for iOS 7 and Xcode 5
 author: Dave Verwer
@@ -6,6 +6,8 @@ excerpt: Last week, Apple released iOS 7 and a brand new version of their develo
 ---
 Last week, Apple publicly released iOS 7 as well as a brand new version of their development tools, Xcode 5.
 
-Whilst we have been working with these for a number of months, we are excited to finally be able to announce that **all of our <a href="/iphone-training/">training courses</a> have been fully updated for both iOS 7 and Xcode 5. All of the slides, lab notes and sample code have been updated to be compatible with all of the new tools included in Xcode 5.
+[![Download 2013 A Year in Review Slide PDF](http://shinydev.s3.amazonaws.com/blog-files/xcode-5-and-ios-7.png)](/iphone-training/)
 
-Xcode 5 is available for <a href="http://developer.apple.com/xcode/">from Apple for free</a>.
+We have been working with both of these for a number of months and we are excited to finally be able to announce that **all of our [training courses](/iphone-training/) have been fully updated for both iOS 7 and Xcode 5**. All of the slides, lab notes and sample code have been updated to be compatible with the new tools included in Xcode 5.
+
+Xcode 5 is available for [from Apple for free](http://developer.apple.com/xcode/). You should [book on an iOS development training course](/iphone-training/) and get yourself up to speed.
