@@ -1,0 +1,63 @@
+---
+layout: default
+title: Status Magic Release Notes | Shiny Development
+permalink: /status-magic/release-notes/
+---
+<div class="wrapper pattern">
+	<div class="container content-lower"> 
+		<div class="section section-double">
+      		<h3>Release Notes</h3>
+      		<h4>v1.9</h4>
+      		<ul>
+      		  <li>Added support for auto detecting whether the status bar for an iOS 7 screenshot should be light or dark content. Select "iOS 7 (Auto Detect Content)" to switch use this feature.</li>
+      		  <li>Added support for adding an opaque fill behind iOS 7 status bars. This won't look good if your app has blurred content behind the bar but for apps with flat/tinted status bars this should work well without having to capture screenshots with SDScreenshotCapture.</li>
+      		  <li>Bug Fix: Light content -> Dark Content & Dark Content -> Light Content. Oops...</li>
+      		  <li>Bug Fix: iOS 6 tinted status bars no longer render tinted on iPad screenshots, regardless of settings. The device does not support doing this and we match that now.</li>
+      		</ul>
+      		<h4>v1.8</h4>
+      		<ul>
+      		  <li>iOS 7 support. Status Magic now fully supports the look and feel of the new iOS 7 status bar.</li> 
+      		  <li>Added support for showing a VPN connection on the status bar.</li>
+      		  <li>Added a single "Export" button overlaid on the selected screenshot.</li>
+      		  <li>Bug Fix: Made the control labels on the settings popover more consistent. (Removed the word "Display" before some options)</li> 
+      		  <li>Bug Fix: Screenshots are now displayed in the correct order when multiple screenshots are opened at the same time.</li> 
+      		  <li>Bug Fix: Screenshots can now be dragged on to the top half of the application window to open them as well as the bottom gallery area.</li> 
+      		  <li>Bug Fix: When opening a screenshot it is automatically selected after being opened.</li> 
+				<li>Bug Fix: Progress bar should no longer be displayed when reordering screenshots.</li> 
+      		</ul>
+      		<h4>v1.7</h4>
+      		<ul>
+      		  <li>Added support for adding custom carrier text to exported screenshots.</li>
+      		  <li>Added support for translucent status bars, see <a href="http://shinydevelopment.com/status-magic/translucent-screenshots-help">the help page</a> for more information on preparing screenshots for this feature.</li> 
+      		  <li>Slight visual tweaks to exported screenshots to even more closely match iOS.</li> 
+      		  <li>Added a Close All button to the status bar.</li> 
+      		</ul>
+      		<h4>v1.6</h4>
+      		<ul>
+      		  <li>Added support for replacing the status bars for Non-Retina (1x) screenshots for iPhone 3.5 inch (320x480), iPhone 4 inch (320x568) and iPad (1024x768) which should make replacing status bars on marketing images or images intended for a web site much easier!</li>
+      		  <li>Added support for resizing Retina screenshots to Non-Retina (2x to 1x) as part of the export process.</li> 
+      		  <li>Added support for importing a directory structure of screenshots. Useful if you already have all of your 		screenshots stored in an existing directory structure. This probably affects you if you have localized screenshots!</li>
+      		  <li>Added support for exporting files back to their original locations (overwriting the original files). Useful if you are working with lots of screenshots in a directory structure as mentioned above.</li> 
+      		  <li>Paths for images displayed in the bar at the bottom of the window now show a tilde for any image under the users home directory.</li> 
+      		  <li>Bug Fix: When exporting using generated file names Status Magic now distinguishes between iPhone 3.5 inch and iPhone 4 inch images in the file name.</li> 
+      		  <li>Bug Fix: Custom time text no longer attempts to word wrap, oops!</li> 
+      		  <li>Bug Fix: Reordering of screenshots in the lower panel now works again!</li>
+      		</ul>
+      		<h4>v1.5</h4>
+      		<ul>
+      		  <li>Initial public release</li>
+      		</ul>
+      		<h4>v1.0</h4>
+      		<ul>
+      		  <li>Not released to public (<a href="http://castroller.com/podcasts/Nsbrief/3294884">why?</a>)</li>
+      		</ul>
+  	    </div>
+  	    <div class="section">
+      		<h3>Status Magic</h3>
+      		<p><strong>You've invested hundreds of hours crafting your iOS app to make it perfect in every way. Don't make a crucial mistake with the best marketing tool you have, your screenshots.</strong></p>
+      		<p><strong>Status Magic is an application for Mac OS X which adds perfect status bars to your iOS App Store screenshots.</strong></p>
+      		<p><a href="https://itunes.apple.com/gb/app/status-magic/id547920381?mt=12&uo=4&at=10l65Y"><img src="/assets/images/mac-app-store-266px.png" /></a></p>
+    	</div>
+    </div>
+  <br style="clear:both" />
+</div>
