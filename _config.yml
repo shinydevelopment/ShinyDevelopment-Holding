@@ -1,8 +1,4 @@
-auto: true
-server: true
-destination: ./_site
+exclude: [ 'capfile', 'capistrano', '_masters' ]
 markdown: rdiscount
-pygments: true
-exclude: templates, capfile, capistrano, _masters
-url: http://localhost:4000
+highlighter: pygments
 permalink: /blog/:title
