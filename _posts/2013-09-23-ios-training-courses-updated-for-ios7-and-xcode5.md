@@ -4,6 +4,7 @@ title: iOS Training Courses Fully Updated for iOS 7 and Xcode 5
 author: Dave Verwer
 excerpt: Last week, Apple released iOS 7 and a brand new version of their development tools, Xcode 5. We have been working with them for a while now and I am very pleased to announce that all of our training courses are now fully updated with materials that incorpororate iOS 7 as well as Xcode 5.
 ---
+
 Last week, Apple publicly released iOS 7 as well as a brand new version of their development tools, Xcode 5.
 
 [![Download 2013 A Year in Review Slide PDF](http://shinydev.s3.amazonaws.com/blog-files/xcode-5-and-ios-7.png)](/iphone-training/)
