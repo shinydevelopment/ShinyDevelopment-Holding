@@ -1,0 +1,9 @@
+---
+require:
+- jekyll-compass
+project_path: .
+http_path: /
+css_dir: assets/styles
+sass_dir: assets/styles
+images_dir: assets/images
+javascripts_dir: assets/js

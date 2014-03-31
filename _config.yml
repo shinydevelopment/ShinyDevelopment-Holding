@@ -2,3 +2,5 @@ exclude: [ 'capfile', 'capistrano', '_masters' ]
 markdown: rdiscount
 highlighter: pygments
 permalink: /blog/:title
+gems:
+- jekyll-compass
