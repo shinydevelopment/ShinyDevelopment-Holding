@@ -13,7 +13,18 @@ permalink: /explore-flickr/
   </div>
   <div class="screencast-mac-container">
     <div class="screencast-mac">
-      <img src="">
+      <div class="explore_carousel">
+        <img src="/assets/images/explore-screenshot-1.png">
+        <img src="/assets/images/explore-screenshot-2.png">
+        <img src="/assets/images/explore-screenshot-3.png">
+        <img src="/assets/images/explore-screenshot-4.png">
+        <img src="/assets/images/explore-screenshot-5.png">
+        <img src="/assets/images/explore-screenshot-6.png">
+        <img src="/assets/images/explore-screenshot-7.png">
+        <img src="/assets/images/explore-screenshot-8.png">
+        <img src="/assets/images/explore-screenshot-9.png">
+        <img src="/assets/images/explore-screenshot-10.png">
+      </div>
     </div>
   </div>
 </div>
@@ -50,18 +61,29 @@ permalink: /explore-flickr/
       <blockquote>
         <h4>&#x2605;&#x2605;&#x2605;&#x2605;&#x2605;<br /><span>Mesmerizing!</span></h4>
         <p>&ldquo;Simple and beautiful. An inspiring way to kill time.&rdquo;</p>
-    </blockquote>
+      </blockquote>
 
-    <blockquote>
+      <blockquote>
         <h4>&#x2605;&#x2605;&#x2605;&#x2605;&#x2606;<br /><span>A visual delight!</span></h4>
         <p>&ldquo;Very nicely designed. Elegantly simple interface. Well done.&rdquo;</p>
-    </blockquote>
+      </blockquote>
 
-    <blockquote>
+      <blockquote>
         <h4>&#x2605;&#x2605;&#x2605;&#x2605;&#x2606;<br /><span>Lots of potential.</span></h4>
         <p>&ldquo;Very charming app, the main screen load animation is elegant and large photos are beautifully displayed.&rdquo;</p>
-    </blockquote>
+      </blockquote>
     </div>
   </div>
   <br style="clear:both" />
 </div>
+
+<script type="text/javascript">
+$(document).ready(function() {
+  $(".explore_carousel").carouFredSel({
+    items: { visible: 1, start: 0 },
+    direction: "left",
+    width: 500,
+    scroll: { items: 1, easing: "swing", duration: 1000, pauseOnHover: false }
+  });
+});
+</script>
