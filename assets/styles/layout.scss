@@ -492,7 +492,14 @@ div#googlemap {
     clear: both;
 }
 
-.screenshot_carousel img {
+.explore_carousel img {
+    display: block;
+    float: left;
+    margin: 10px;
+    width: 900px;
+}
+
+.status_carousel img {
     display: block;
     float: left;
     margin: 10px;
