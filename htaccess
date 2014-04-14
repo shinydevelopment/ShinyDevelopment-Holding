@@ -1,6 +1,5 @@
 Options +SymLinksIfOwnerMatch +MultiViews
 RewriteEngine on
-RewriteLog "/var/log/apache2/mod_rewrite.log"
 RewriteBase /
 
 # Get rid of www in the domain

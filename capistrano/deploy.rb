@@ -39,6 +39,8 @@ namespace :deploy do
 <VirtualHost *:80>\\n
 \\tServerName #{apache_domain}\\n
 #{vhost_alias}
+\\tRewriteLog "/var/log/apache2/rewrite.log"\\n
+\\tRewriteLogLevel 4\\n
 \\tDocumentRoot #{current_path}/_site\\n
 \\t<Directory #{current_path}/_site>\\n
 \\t\\tAllow from all\\n
