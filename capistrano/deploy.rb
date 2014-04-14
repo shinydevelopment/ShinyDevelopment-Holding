@@ -26,7 +26,7 @@ namespace :deploy do
     run "cd #{latest_release} && bundle exec jekyll build"
   end
 
-    desc "Create an apache virtual host for the app"
+  desc "Create an apache virtual host for the app"
   task :create_apache_config, roles: :web do
     # HTTP port 80 vhost setup
     vhost_alias = ''
@@ -39,10 +39,13 @@ namespace :deploy do
 <VirtualHost *:80>\\n
 \\tServerName #{apache_domain}\\n
 #{vhost_alias}
+\\tRewriteLog "/var/log/apache2/rewrite.log"\\n
+\\tRewriteLogLevel 0\\n
 \\tDocumentRoot #{current_path}/_site\\n
 \\t<Directory #{current_path}/_site>\\n
 \\t\\tAllow from all\\n
 \\t\\tOptions -MultiViews\\n
+\\t\\tAllowOverride all\\n
 \\t</Directory>\\n
 </VirtualHost>\\n
 EOS
