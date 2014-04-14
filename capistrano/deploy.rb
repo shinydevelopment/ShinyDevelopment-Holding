@@ -26,7 +26,7 @@ namespace :deploy do
     run "cd #{latest_release} && bundle exec jekyll build"
   end
 
-    desc "Create an apache virtual host for the app"
+  desc "Create an apache virtual host for the app"
   task :create_apache_config, roles: :web do
     # HTTP port 80 vhost setup
     vhost_alias = ''
