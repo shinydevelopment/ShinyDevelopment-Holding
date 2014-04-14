@@ -3,8 +3,8 @@ RewriteEngine on
 RewriteBase /
 
 # Get rid of www in the domain
-RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
-RewriteRule ^_site\/(.*)$ http://%1/$1 [R=301]
+RewriteCond %{HTTP_HOST} ^www\.(.*) [NC]
+RewriteRule (.*) http://%1/$1 [L,R=301]
 
 # Redirect old web pages
 Redirect 301 /statusmagic /status-magic
