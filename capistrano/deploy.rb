@@ -45,6 +45,7 @@ namespace :deploy do
 \\t<Directory #{current_path}/_site>\\n
 \\t\\tAllow from all\\n
 \\t\\tOptions -MultiViews\\n
+\\t\\tAllowOverride all\\n
 \\t</Directory>\\n
 </VirtualHost>\\n
 EOS
