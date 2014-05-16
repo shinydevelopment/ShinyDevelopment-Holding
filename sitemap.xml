@@ -4,109 +4,109 @@ layout: nil
 <?xml version="1.0" encoding="utf-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>{{ site.url }}/</loc>
+    <loc>http://shinydevelopment.com/</loc>
     <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>{{ site.url }}/balloons</loc>
+    <loc>http://shinydevelopment.com/balloons/</loc>
     <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>{{ site.url }}/blog</loc>
+    <loc>http://shinydevelopment.com/blog/</loc>
     <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>{{ site.url }}/charades</loc>
+    <loc>http://shinydevelopment.com/charades/</loc>
     <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>{{ site.url }}/consultancy</loc>
+    <loc>http://shinydevelopment.com/consultancy/</loc>
     <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>{{ site.url }}/consultancy-terms-and-conditions</loc>
+    <loc>http://shinydevelopment.com/consultancy-terms-and-conditions/</loc>
     <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>{{ site.url }}/contact</loc>
+    <loc>http://shinydevelopment.com/contact/</loc>
     <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>{{ site.url }}/explore-flickr</loc>
+    <loc>http://shinydevelopment.com/explore-flickr/</loc>
     <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>{{ site.url }}/in-house-iphone-training</loc>
+    <loc>http://shinydevelopment.com/in-house-iphone-training/</loc>
     <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>{{ site.url }}/in-house-iphone-training-enquiry</loc>
+    <loc>http://shinydevelopment.com/in-house-iphone-training-enquiry/</loc>
     <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>{{ site.url }}/in-house-course-terms-and-conditions</loc>
+    <loc>http://shinydevelopment.com/in-house-course-terms-and-conditions/</loc>
     <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>{{ site.url }}/our-apps</loc>
+    <loc>http://shinydevelopment.com/our-apps/</loc>
     <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>{{ site.url }}/iphone-training</loc>
+    <loc>http://shinydevelopment.com/iphone-training/</loc>
     <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>{{ site.url }}/speakapedia</loc>
+    <loc>http://shinydevelopment.com/speakapedia/</loc>
     <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>{{ site.url }}/status-magic</loc>
+    <loc>http://shinydevelopment.com/status-magic/</loc>
     <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>{{ site.url }}/status-magic/translucent-screenshots-help</loc>
+    <loc>http://shinydevelopment.com/status-magic/translucent-screenshots-help/</loc>
     <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>{{ site.url }}/tackle-fishing</loc>
+    <loc>http://shinydevelopment.com/tackle-fishing/</loc>
     <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>{{ site.url }}/training</loc>
+    <loc>http://shinydevelopment.com/training/</loc>
     <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
