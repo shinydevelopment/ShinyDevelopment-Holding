@@ -46,6 +46,6 @@ Now, this is only a guideline and I still prefer a screenshot with a perfect sta
 
 If it had been a matter of updating Status Magic to simply accept and render out the new screenshot sizes we almost certainly would have done it and I would not be making this announcement.
 
-However, The 3x rendering issue is a much bigger problem. The code involved in getting everything in a perfect position between 1x and 2x was bad enough (Oh how I wish it was a simple as just multiplying by 2 😝) and doing all those tweaks again for 3x is simply not worth the effort given that the operating system has a better way to achieve the same result, combined with the fact that Apple are now recommending that status bars be snipped.
+However, the 3x rendering issue is a much bigger problem. The code involved in getting everything in a perfect position between 1x and 2x was bad enough (oh how I wish it was a simple as just multiplying by 2 😝) and doing all those tweaks again for 3x is simply not worth the effort given that the operating system has a better way to achieve the same result, combined with the fact that Apple are now recommending that status bars be snipped.
 
 I loved this app, it wasn't useful every day but it really made a difference to App Store screenshots and every time I saw a 9:41 on an App Store screenshot I wondered if we had helped create it. Farewell, Status Magic!
