@@ -2,7 +2,7 @@
 layout: post
 title: Status Magic and iPhone 6/6 Plus screen sizes
 author: Dave Verwer
-excerpt:
+excerpt: Last week Apple unveiled some beautiful new devices in the form of the new iPhone 6 and iPhone 6 Plus. As you surely know by now the new devices have new screen resolutions as well, 1334x750 pixels for the iPhone 6 and a whopping 1920x1080 pixels for the 6 Plus. Unfortunately, this means that we had a difficult decision to make about the future of Status Magic.
 ---
 
 ![Sherlocked](http://shinydev.s3.amazonaws.com/blog-files/status-magic-sherlocked.png)
