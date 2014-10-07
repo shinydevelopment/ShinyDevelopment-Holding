@@ -7,6 +7,10 @@ excerpt: Last week Apple unveiled some beautiful new devices in the form of the 
 
 ![Sherlocked](http://shinydev.s3.amazonaws.com/blog-files/status-magic-sherlocked.png)
 
+**UPDATE: We have released a small open source tool to help capture perfect screen shots if you use the iOS Simulator to capture your screenshots. [Read all about it](http://shinydevelopment.com/blog/status-magic-for-the-ios-simulator/).**
+
+—
+
 Last week Apple unveiled some beautiful new devices in the form of the new iPhone 6 and iPhone 6 Plus. As you surely know by now the new devices have new screen resolutions as well, 1334x750 pixels for the iPhone 6 and a whopping 1920x1080 pixels for the 6 Plus.
 
 More fundamental than the resolution change is the fact that the iPhone Plus renders at a new scale factor. Native rendering, including screenshots needed for App Store listings is now 3x resolution instead of 2x, the device then [scales down the output](http://www.paintcodeapp.com/news/iphone-6-screens-demystified) to the 1920x1080px hardware.
@@ -49,3 +53,7 @@ If it had been a matter of updating Status Magic to simply accept and render out
 However, the 3x rendering issue is a much bigger problem. The code involved in getting everything in a perfect position between 1x and 2x was bad enough (oh how I wish it was a simple as just multiplying by 2 😝) and doing all those tweaks again for 3x is simply not worth the effort given that the operating system has a better way to achieve the same result, combined with the fact that Apple are now recommending that status bars be snipped.
 
 I loved this app, it wasn't useful every day but it really made a difference to App Store screenshots and every time I saw a 9:41 on an App Store screenshot I wondered if we had helped create it. Farewell, Status Magic!
+
+—
+
+**UPDATE: We have released a small open source tool to help capture perfect screen shots if you use the iOS Simulator to capture your screenshots. [Read all about it](http://shinydevelopment.com/blog/status-magic-for-the-ios-simulator/).**
