@@ -1,5 +1,0 @@
-Sitemap: http://shinydevelopment.com/sitemap.xml
-
-User-agent: *
-Allow: /
-Disallow: /error.html
